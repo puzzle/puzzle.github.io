@@ -34,15 +34,15 @@ Die hier ersichtlichen Screenshots sind alle vom "Eclair" Wallet. Das Prinzip so
 bei anderen Apps sehr ähnlich sein und die Anleitung sollte deshalb auch für diese
 benutzt werden können.
 
-1. Wir installieren uns nun die App "Eclair Wallet Mainnet" aus dem Google Play store:
-  <img src="../assets/img/lightning/store-eclair-mainnet.png" width="300">
+1. Wir installieren uns nun die App "Eclair Wallet Mainnet" aus dem Google Play store:<br/>
+  <img src="../assets/img/lightning/store-eclair-mainnet.png" width="400">
 1. Beim Starten wird uns auch hier noch einmal mitgeteilt, dass es sich um "beta"-Software
-  handelt:
-  <img src="../assets/img/lightning/mainnet-disclaimer.png" width="300">
+  handelt:<br/>
+  <img src="../assets/img/lightning/mainnet-disclaimer.png" width="400">
 1. Nach der Bestätigung der Warnung, werden wir gefragt, ob wir ein neues Wallet
   einrichten oder ein bestehendes importieren wollen. Wir wollen ein neuer erstellen
-  und wählen deshalb "Create New Wallet":
-  <img src="../assets/img/lightning/create-or-import.png" width="300">
+  und wählen deshalb "Create New Wallet":<br/>
+  <img src="../assets/img/lightning/create-or-import.png" width="400">
 1. Nun kommt ein sehr sehr wichtiger Teil: Die 24 Wörter.<br/>
   Hier gibt es absichtlich keinen Screenshot, weil diese 24 Wörter sehr geheim sind.
   Diese Wörter widerspiegeln den kryptografischen Zugangscode auf das gesamte Guthaben,
@@ -51,14 +51,17 @@ benutzt werden können.
   Deshalb:
    - **Wörter aufgschreiben und an einem sicheren Ort aufbewahren**: Wenn das Handy
    defekt ist, oder verloren geht, dann kann mit den Wörtern das Guthaben widerhergestellt
-   werden.
+   werden. Aber ohne die Wörter, ist alles weg! Es gibt keine Bank die "das Konto entsperren"
+   kann. Daher, am besten in den Safe mit dem Zettel.
    - **Niemals jemandem diese Wörter anvertrauen**: Eine Person oder Webseite, die nach
    diesen Wörtern fragt, versucht sehr wahrscheinlich, das Guthaben zu stehlen. Darum sollte
    ein Backup nur bei Apps eingespielt werden, bei denen man sicher ist, dass sie
    vertrauenswürdig sind.
 1. Hat man die Wörter aufgeschrieben, werden sie gleich überprüft. Die App fragt nach 3
   zufälligen Wörtern aus der Liste, die man soeben aufgeschrieben hat. Hat man diese bestätigt,
-  gelangt man auf den Hauptbildschirm der App.
+  wird noch nach einem PIN gefragt. Dieser schützt lediglich die App vor Fremdzugriffen,
+  falls das Handy gestolen wird. Dieser PIN kann, im Gegensatz zu den 24 Wörtern, jederzeit
+  geändert werden. Nach dem Erstellen des PINs gelangt man auf den Hauptbildschirm der App.
 
 Die App ist nun erfolgreich installiert und die Geldbörse/das Wallet eingerichtet.
 Wir können nun auf den drei Hauptbildschirmen der App herumnavigieren, in dem wir nach
@@ -66,9 +69,9 @@ links oder rechts swipen/streichen:
 
 <table border="0" cellpadding="5">
 <tr>
-<td><img src="../assets/img/lightning/mainnet-screen-left.png" width="100"></td>
-<td><img src="../assets/img/lightning/mainnet-screen-center.png" width="100"></td>
-<td><img src="../assets/img/lightning/mainnet-screen-right.png" width="100"></td>
+<td><img src="../assets/img/lightning/mainnet-screen-left.png" width="350"></td>
+<td><img src="../assets/img/lightning/mainnet-screen-center.png" width="350"></td>
+<td><img src="../assets/img/lightning/mainnet-screen-right.png" width="350"></td>
 </tr>
 <tr>
 <td>Links: Bitcoin-Adresse</td>
