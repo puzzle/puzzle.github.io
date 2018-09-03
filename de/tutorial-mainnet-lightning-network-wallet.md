@@ -82,7 +82,7 @@ links oder rechts swipen/streichen:
 
 ## Schritt 2: Bitcoin einkaufen
 
-
+(work in progress...)
 
 * SBB-Automat
 * Handy dabei wegen SMS
@@ -91,12 +91,16 @@ links oder rechts swipen/streichen:
 
 ## Schritt 3: Channel zu Puzzle-Node eröffnen
 
+(work in progress...)
+
 * Darauf hinweisen, warum Puzzle-Node, Vor-/Nachteile zeigen
 * Vergleich mit Prepaid-Guthaben aufstellen, aber mit Unterschied, dass
   über den Channel auch Geld zurückfliessen kann
 * Dauert 3 Confirmations
 
 # FAQ
+
+(work in progress...)
 
 * Geld zurück verlangen?
   * Payment Request erzeugen
