@@ -82,16 +82,94 @@ links oder rechts swipen/streichen:
 
 ## Schritt 2: Bitcoin einkaufen
 
-(work in progress...)
+Jetzt sind wir bereit, um das Wallet mit Bitcoin zu bestücken. Hier gibt es natürlich diverse
+Möglichkeiten. Wir zeigen hier eine einfache und unkomplizierte Möglichkeit, die an jedem
+Bahnhof der Schweiz funktioniert: Bitcoin am SBB-Ticket-Automaten kaufen.
 
-* SBB-Automat
-* Handy dabei wegen SMS
-* Adresse im Wallet generieren
-* Dauert 3 Confirmations
+Alles, was wir dazu benötigen, ist eine Schweizer Handy-Nummer, die SMS empfangen kann. Denn am
+SBB-Automaten kann man pro Handy-Nummer pro Tag maximal CHF 500.- in Bitcoin beziehen.
+Geprüft wird dies durch einen mTAN, der per SMS aufs Handy gesendet wird.
+
+Stehen wir vor dem Automaten, wählen wir unter "Prepaid" den Punkt "Bitcoin aufladen".
+Jetzt müssen wir als erstes unsere Bitcoin-Adresse in den Automat einscannen. Dafür
+öffnen wir die Eclair-App und wischen nach rechts, um auf das Tab "Your Bitcoin Address" zu
+gelangen.
+
+<img src="../assets/img/lightning/mainnet-receive.png" width="400">
+
+Der QR-Code, der dort angezeigt wird, muss nun beim Automaten vor die Kamera gehalten
+werden. Dies kann, je nach Lichtverhältnissen etwas schwierig sein.<br/>
+Es scheint, als wäre ein Abstand von ca. 20cm von der Kamera optimal.
+Falls es einen Moment lang nicht klappt, kann es sein, dass der Automat zurück zum Hauptbildchirm
+wechselt. In diesem Fall muss einfach wieder "Prepaid" und dann "Bitcoin aufladen" gewählt werden.
+
+Konnte die Adresse eingelesen werden, wird sie am Automat angezeigt. Aus Sicherheitsgründen
+kontrollieren wir kurz, ob es die korrekte Adresse ist (es empfiehlt sich, die ersten und letzten 4
+Zeichen einer Bitcoin-Adresse immer kurz zu prüfen!).
+
+Nun fragt der Automat nach einer Handy-Nummer und sendet nach Eingabe dieser ein SMS dahin.
+Den 4-stelligen Code vom SMS muss man nun auch im Automat eingeben.
+
+Ist alles korrekt, wird nun eine Zusammenfassung angezeigt, welche auch den Bitcoin-Kurs und die
+Gebühren beinhaltet. Ist man damit einverstanden, kann man den gewählten Betrag bezahlen (mit Karte
+oder bar). Natürlich erhält man nach dem Bezahlen auch eine detaillierte Papier-Quittung.
+
+In der App sollte es unter "Transaction History" nun etwa so aussehen:
+
+<img src="../assets/img/lightning/mainnet-incoming-tx.png" width="400">
+
+Die Überweisung wurde also registriert, aber sie ist noch nicht bestätigt ("0 confs").
+Sobald mindestens 3 Confirmations erreicht sind, gilt die Überweisung als getätigt und der
+Betrag kann in der App verwendet werden.
+
+[Weitere Informationen zum Kauf von Bitcoin am SBB-Automaten](https://www.sbb.ch/de/bahnhof-services/dienstleistungen/weitere-dienstleistungen/bitcoin.html)
 
 ## Schritt 3: Channel zu Puzzle-Node eröffnen
 
-(work in progress...)
+Wenn wir 3 Bestätigungen auf der eingehenden Transaktion haben, dann können wir jetzt zum letzten
+Schritt übergehen: Wir eröffnen einen "Lightning Network"-Channel.<br/>
+Dies kann man sich vorstellen, als ob man eine Prepaid-Karte auflädt. Das Aufladen kann einen
+Moment dauern, aber sobald das Guthaben auf der Karte ist, kann man es sehr einfach und rasch
+ausgeben.
+
+Auch der letzte Schritt dauert einen Moment, denn auch hier wird wieder eine Transaktion in die
+Bitcoin-Blockchain geschrieben und braucht wieder 3 Confirmations. Dies ist aber das letzte Mal,
+das wir warten müssen. Ist der Channel erst einmal offen, geht alles blitzschnell.
+
+1. Wir gehen mit einem Wisch nach rechts auf das Tab "Lightning Channels" und klicken auf den
+  Button unten.<br/>
+  <img src="../assets/img/lightning/mainnet-channel-menu.png" width="400"><br/>
+  Haben wir einen PC oder anderes Gerät in der Nähe, dann ist es am einfachsten,
+  wenn wir dort die Webseite [lightning.puzzle.ch](https://lightning.puzzle.ch) aufrufen und
+  dann vom Handy aus den QR-Code einscannen. Dazu wählen wir in der Eclair-App den Button
+  "Scan A Node URI".<br/>
+  <img src="../assets/img/lightning/mainnet-scan-node-uri.png" width="400"><br/>
+  Haben wir nur das Handy zur Verfügung, dann öffnen wir die Webseite
+  [lightning.puzzle.ch](https://lightning.puzzle.ch) im Internetbrowser des Handys und kopieren
+  den Text oberhalb des QR-Codes. Wichtig hier ist, dass der gesamte Text erwischt wird, also
+  bis und mit <code>...@lightning.puzzle.ch:9735</code>.
+  In der Eclair-App wählen wir nun "Paste A Node URI" und fügen den kopierten Text dort ein.
+1. Nun sollte der Bildschirm so oder ähnlich aussehen:<br/>
+  <img src="../assets/img/lightning/mainnet-open-channel.png" width="400">
+1. Jetzt müssen wir den Betrag in Bitcoin eingeben, den wir in den Channel stecken möchten.
+  Dieser Betrag kann höchstens 0.16 BTC pro Channel sein.
+  Je nach Kurs haben wir aber deutlich weniger gekauft, deshalb möchten wir unter Umständen
+  alle gekauften Bitcoins in den Channel stecken. Dies ist möglich, man muss aber vom gekauften
+  Betrag noch ca 0.00001 Bitcoin abziehen für die Channel-Eröffnungsgebühr.
+1. Wird der Betrag akzeptiert, dann sollte nun der Channel in Eröffnung sein:<br/>
+  <img src="../assets/img/lightning/mainnet-wait-for-channel.png" width="400"><br/>
+  War der gewählte Betrag zu gross, dann wird eine Fehlermeldung angezeigt werden und der Channel
+  verschwindet unter Umständen wieder. Dann muss man den Betrag für die Channel-Kapazität beim nächsten
+  Versuch kleiner wählen.<br/>
+  Dieser Schritt erscheint unnötig kompliziert und das ist er auch. Hier wird sicherlich noch vieles
+  optimiert werden an der Bedienerfreundlichkeit.
+1. Nach 3 Confirmations sollte der Channel dann ready sein: <br/>
+  <img src="../assets/img/lightning/mainnet-channel-ready.png" width="400">
+1. Ab sofort können nun "Lightning Network"-Zahlungen ausgeführt werden!<br/>
+  Dazu wählt man im Tab "Transaction History" den Button unten rechts und dann im Menü
+  den Punkt "Scan A Payment Request", wonach man dann den QR-Code, den man bezahlen möchte, scannen
+  kann:<br/>
+  <img src="../assets/img/lightning/mainnet-pay-menu.png" width="400">
 
 * Darauf hinweisen, warum Puzzle-Node, Vor-/Nachteile zeigen
 * Vergleich mit Prepaid-Guthaben aufstellen, aber mit Unterschied, dass
@@ -108,4 +186,5 @@ links oder rechts swipen/streichen:
 * Was ist, wenn Geld im Channel aufgebraucht?
   * Channel schliessen oder Geld zurück erhalten
  
- 
+* Channel funktioniert nicht?
+  * App neu starten
