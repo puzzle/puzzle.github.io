@@ -1,9 +1,9 @@
-# Einrichten eines Wallets für das "Lightning Network" auf dem Mainnet
+# Wallet einrichten für das "Lightning Network" auf dem Mainnet
 
-Zahlungen mit dem Lightning Network sind blitzschnell. Doch bis man sein
-Gerät soweit hat, dass man Zahlungen ausführen kann, dauert es einen Moment.
+Zahlungen mit dem Lightning Network gehen blitzschnell. Bis jedoch das
+Gerät soweit hat, dass Zahlungen ausgeführt werden, dauert es einen Moment.
 
-Diese Anleitung ist für technisch nicht so versierte Benutzer gedacht, die
+Diese Anleitung ist für technisch weniger versierte Benutzer, welche
 mit dem Handy bezahlen möchten. Deshalb zeigen wir den Prozess anhand
 Apps für Mobilgeräte.
 
@@ -14,33 +14,32 @@ Wer eine Anleitung für das Testnet sucht,
 
 ## Schritt 0: Disclaimer
 
-Bevor wir loslegen, möchten wir an dieser Stelle noch einmal ganz klar und deutlich
+Bevor wir loslegen, möchten wir an dieser Stelle noch einmal klar
 darauf aufmerksam machen, dass es sich beim Lightning Network um eine Technologie
 handelt, die sich noch im Stadium "experimentell" befindet.
-Dies bedeutet, dass nicht garantiert werden kann, dass alles fehlerfrei und reibungslos
+Dies bedeutet, dass momentan keine Garantie besteht, dass alles fehlerfrei und reibungslos
 funktioniert.
 Im schlimmsten (jedoch eher unwahrscheinlichen) Fall kann Geld verloren gehen
 oder für eine gewisse Zeit nicht zugänglich sein.
 
-**Wir empfehlen deshalb ganz klar, nur mit kleinen Beträgen zu starten!**
+**Wir empfehlen deshalb, nur mit kleinen Beträgen zu starten!**
 
 ## Schritt 1: App installieren
 
 Zum Entstehungszeitpunkt dieses Artikels (Anfang September 2018) gibt es nur
-Mainnet-Kompatible Apps für Android-Geräte. Apps für iOS werden hoffentlich sehr
+Mainnet-kompatible Apps für Android-Geräte. Apps für iOS werden hoffentlich
 bald erscheinen.
 
-Die hier ersichtlichen Screenshots sind alle vom "Eclair" Wallet. Das Prinzip sollte aber
-bei anderen Apps sehr ähnlich sein und die Anleitung sollte deshalb auch für diese
-benutzt werden können.
+Die ersichtlichen Screenshots sind alle vom "Eclair" Wallet. Das Prinzip sollte aber
+bei anderen Apps ähnlich sein und deshalb kann diese Anleitung verwendet werden.
 
-1. Wir installieren uns nun die App "Eclair Wallet Mainnet" aus dem Google Play store:<br/>
+1. Wir installieren nun die App "Eclair Wallet Mainnet" aus dem Google Play Store:<br/>
   <img class="shadow" src="../assets/img/lightning/store-eclair-mainnet.png" width="400">
-1. Beim Starten wird uns auch hier noch einmal mitgeteilt, dass es sich um "beta"-Software
+1. Beim Starten wird uns noch einmal mitgeteilt, dass es sich um "beta"-Software
   handelt:<br/>
   <img class="shadow" src="../assets/img/lightning/mainnet-disclaimer.png" width="400">
 1. Nach der Bestätigung der Warnung, werden wir gefragt, ob wir ein neues Wallet
-  einrichten oder ein bestehendes importieren wollen. Wir wollen ein neuer erstellen
+  einrichten oder ein bestehendes importieren wollen. Wir wollen ein neues erstellen
   und wählen deshalb "Create New Wallet":<br/>
   <img class="shadow" src="../assets/img/lightning/create-or-import.png" width="400">
 1. Nun kommt ein sehr sehr wichtiger Teil: Die 24 Wörter.<br/>
@@ -51,16 +50,17 @@ benutzt werden können.
   Deshalb:
    - **Wörter aufgschreiben und an einem sicheren Ort aufbewahren**: Wenn das Handy
    defekt ist, oder verloren geht, dann kann mit den Wörtern das Guthaben widerhergestellt
-   werden. Aber ohne die Wörter, ist alles weg! Es gibt keine Bank die "das Konto entsperren"
-   kann. Daher, am besten in den Safe mit dem Zettel.
+   werden. Ohne die Wörter, ist alles weg! Es gibt keine Bank die "das Konto entsperren"
+   kann. Daher am besten in den Safe mit dem Zettel.
    - **Niemals jemandem diese Wörter anvertrauen**: Eine Person oder Webseite, die nach
    diesen Wörtern fragt, versucht sehr wahrscheinlich, das Guthaben zu stehlen. Darum sollte
    ein Backup nur bei Apps eingespielt werden, bei denen man sicher ist, dass sie
    vertrauenswürdig sind.
 1. Hat man die Wörter aufgeschrieben, werden sie gleich überprüft. Die App fragt nach 3
-  zufälligen Wörtern aus der Liste, die man soeben aufgeschrieben hat. Hat man diese bestätigt,
-  wird noch nach einem PIN gefragt. Dieser schützt lediglich die App vor Fremdzugriffen,
-  falls das Handy gestolen wird. Dieser PIN kann, im Gegensatz zu den 24 Wörtern, jederzeit
+  zufälligen Wörtern aus der Liste, die man aufgeschrieben hat. Achtung, diese müssen mit einem
+  Leerzeichen getrennt eingegeben werden! Hat man diese bestätigt,
+  wird nach einem PIN gefragt. Dieser schützt lediglich die App vor Fremdzugriffen,
+  falls das Handy gestohlen wird. Dieser PIN kann, im Gegensatz zu den 24 Wörtern jederzeit
   geändert werden. Nach dem Erstellen des PINs gelangt man auf den Hauptbildschirm der App.
 
 Die App ist nun erfolgreich installiert und die Geldbörse/das Wallet eingerichtet.
@@ -89,11 +89,11 @@ Das Einstellungs-Menü findet man hier:<br/>
 
 ## Schritt 2: Bitcoin einkaufen
 
-Jetzt sind wir bereit, um das Wallet mit Bitcoin zu bestücken. Hier gibt es natürlich diverse
-Möglichkeiten. Wir zeigen hier eine einfache und unkomplizierte Möglichkeit, die an jedem
+Jetzt sind wir soweit, um das Wallet mit Bitcoin zu bestücken. Hier gibt es diverse
+Möglichkeiten. Wir zeigen hier eine einfache und unkomplizierte Variante, die an jedem
 Bahnhof der Schweiz funktioniert: Bitcoin am SBB-Ticket-Automaten kaufen.
 
-Alles, was wir dazu benötigen, ist eine Schweizer Handy-Nummer, die SMS empfangen kann. Denn am
+Alles, was wir dazu benötigen, ist eine Schweizer Handynummer, die SMS empfangen kann. Denn am
 SBB-Automaten kann man pro Handy-Nummer pro Tag maximal CHF 500.- in Bitcoin beziehen.
 Geprüft wird dies durch einen mTAN, der per SMS aufs Handy gesendet wird.
 
@@ -105,29 +105,29 @@ gelangen.
 <img class="shadow" src="../assets/img/lightning/mainnet-receive.png" width="400">
 
 Der QR-Code, der dort angezeigt wird, muss nun beim Automaten vor die Kamera gehalten
-werden. Dies kann, je nach Lichtverhältnissen etwas schwierig sein.<br/>
-Es scheint, als wäre ein Abstand von ca. 20cm von der Kamera optimal.
-Falls es einen Moment lang nicht klappt, kann es sein, dass der Automat zurück zum Hauptbildchirm
+werden. Dies kann je nach Lichtverhältnissen etwas schwierig sein.<br/>
+Ein Abstand von ca. 20cm von der Kamera ist dafür optimal.
+Falls es einen Moment lang nicht klappt, kann es sein, dass der Automat zurück zum Hauptbildschirm
 wechselt. In diesem Fall muss einfach wieder "Prepaid" und dann "Bitcoin aufladen" gewählt werden.
 
 Konnte die Adresse eingelesen werden, wird sie am Automat angezeigt. Aus Sicherheitsgründen
-kontrollieren wir kurz, ob es die korrekte Adresse ist (es empfiehlt sich, die ersten und letzten 4
-Zeichen einer Bitcoin-Adresse immer kurz zu prüfen!).
+kontrollieren wir kurz, ob es die korrekte Adresse ist (es empfiehlt sich, die ersten und letzten vier
+Zeichen einer Bitcoin-Adresse immer zu prüfen!).
 
 Jetzt wählen wir den Betrag aus, den wir in Bitcoin umwandeln wollen.
 
-Weiter fragt nun der Automat nach einer Handy-Nummer und sendet nach Eingabe dieser ein SMS dahin.
-Den 4-stelligen Code vom SMS muss man danach auch im Automat eingeben.
+Weiter fragt nun der Automat nach einer Handynummer und sendet nach Eingabe dieser ein SMS dahin.
+Den im SMS enthaltenen 4-stelligen Code muss danach im Automat eingegeben werden.
 
 Ist alles korrekt, wird nun eine Zusammenfassung angezeigt, welche auch den Bitcoin-Kurs und die
 Gebühren beinhaltet. Ist man damit einverstanden, kann man den gewählten Betrag bezahlen (mit Karte
-oder bar). Natürlich erhält man nach dem Bezahlen auch eine detaillierte Papier-Quittung.
+oder bar). Nach dem Bezahlen gibt es eine detaillierte Papier-Quittung.
 
-In der App sollte es unter "Transaction History" nun etwa so aussehen:
+In der App sollte dies unter "Transaction History" etwa so aussehen:
 
 <img class="shadow" src="../assets/img/lightning/mainnet-incoming-tx.png" width="400">
 
-Die Überweisung wurde also registriert, aber sie ist noch nicht bestätigt ("0 confs").
+Die Überweisung wurde registriert, ist aber noch nicht bestätigt ("0 confs").
 Sobald mindestens 3 Confirmations erreicht sind, gilt die Überweisung als getätigt und der
 Betrag kann in der App verwendet werden.
 
@@ -135,14 +135,14 @@ Betrag kann in der App verwendet werden.
 
 ## Schritt 3: Channel zu Puzzle-Node eröffnen
 
-Wenn wir 3 Bestätigungen auf der eingehenden Transaktion haben, dann können wir jetzt zum letzten
+Wenn wir drei Bestätigungen auf der eingehenden Transaktion haben, können wir zum letzten
 Schritt übergehen: Wir eröffnen einen "Lightning Network"-Channel.<br/>
-Dies kann man sich vorstellen, als ob man eine Prepaid-Karte auflädt. Das Aufladen kann einen
+Dies ist etwa so, als ob man eine Prepaid-Karte auflädt. Das Aufladen kann einen
 Moment dauern, aber sobald das Guthaben auf der Karte ist, kann man es sehr einfach und rasch
 ausgeben.
 
-Auch der letzte Schritt dauert einen Moment, denn auch hier wird wieder eine Transaktion in die
-Bitcoin-Blockchain geschrieben und braucht wieder 3 Confirmations. Dies ist aber der letzte Schritt,
+Der letzte Schritt dauert einen Moment, denn auch hier wird wieder eine Transaktion in die
+Bitcoin-Blockchain geschrieben und braucht wieder drei Confirmations. Dies ist aber der letzte Schritt,
 bei dem wir warten müssen. Ist der Channel erst einmal offen, geht alles blitzschnell.
 
 1. Wir gehen mit einem Wisch nach rechts auf das Tab "Lightning Channels" und klicken auf den
@@ -155,7 +155,7 @@ bei dem wir warten müssen. Ist der Channel erst einmal offen, geht alles blitzs
   <img class="shadow" src="../assets/img/lightning/mainnet-scan-node-uri.png" width="400"><br/>
   Haben wir nur das Handy zur Verfügung, dann öffnen wir die Webseite
   [lightning.puzzle.ch](https://lightning.puzzle.ch) im Internetbrowser des Handys und kopieren
-  den Text oberhalb des QR-Codes. Wichtig hier ist, dass der gesamte Text erwischt wird, also
+  den Text oberhalb des QR-Codes. Wichtig ist hier, dass der gesamte Text kopiert wird, also
   bis und mit <code>...@lightning.puzzle.ch:9735</code>.
   In der Eclair-App wählen wir nun "Paste A Node URI" und fügen den kopierten Text dort ein.
 1. Nun sollte der Bildschirm so oder ähnlich aussehen:<br/>
@@ -167,14 +167,14 @@ bei dem wir warten müssen. Ist der Channel erst einmal offen, geht alles blitzs
   Betrag noch ca 1000 Satoshi (≃0.00001 BTC) abziehen für die Channel-Eröffnungsgebühr.<br/>
   Haben wir also beispielsweise 5'000'000 Satoshi zur Verfügung (gemäss Kontostand im Wallet),
   dann geben wir bei der "Channel capacity" die Zahl 4'999'000 ein.
-1. Wird der Betrag akzeptiert, dann sollte nun der Channel in Eröffnung sein:<br/>
+1. Wird der Betrag akzeptiert, dann sollte nun der Channel eröffnet werden:<br/>
   <img class="shadow" src="../assets/img/lightning/mainnet-wait-for-channel.png" width="400"><br/>
-  War der gewählte Betrag zu gross, dann wird eine Fehlermeldung angezeigt werden und der Channel
+  War der gewählte Betrag zu gross, dann wird eine Fehlermeldung angezeigt und der Channel
   verschwindet unter Umständen wieder. Dann muss man den Betrag für die Channel-Kapazität beim nächsten
-  Versuch kleiner wählen.<br/>
-  Dieser Schritt erscheint unnötig kompliziert und das ist er auch. Hier wird sicherlich noch vieles
-  optimiert werden an der Bedienerfreundlichkeit.
-1. Nach 3 Confirmations sollte der Channel dann ready sein: <br/>
+  Versuch reduzieren.<br/>
+  Dieser Schritt erscheint unnötig kompliziert und das ist er auch. Hier und allgemein bei der
+  Bedienerfreundlichkeit wird sicherlich noch vieles durch die App-Hersteller optimiert.
+1. Nach drei Confirmations sollte der Channel dann ready sein: <br/>
   <img class="shadow" src="../assets/img/lightning/mainnet-channel-ready.png" width="400">
 1. Ab sofort können nun "Lightning Network"-Zahlungen ausgeführt werden!<br/>
   Dazu wählt man im Tab "Transaction History" den Button unten rechts und dann im Menü
@@ -209,9 +209,9 @@ des Bezahlens!**
 
 * Was passiert, wenn ich das Guthaben meines Channels aufgebraucht habe?
   * Ist das Guthaben eines Channels aufgebraucht, dann kann darüber nicht mehr bezahlt werden.
-    Es muss also ein neuer Channel eröffnet werden. Zuknüftig, wenn man mit Eclair auch Geld
+    Es muss also ein neuer Channel eröffnet werden. Zukünftig, wenn man mit Eclair auch Geld
     empfangen kann, dann ist es möglich, dass man im bereits eröffneten Channel wieder Guthaben zurück
-    erhält, das man dann wieder ausgeben kann. Beispielsweise, indem man
+    erhält, das wieder ausgeben kann. Beispielsweise, indem man
     [einen Teil seines Lohns](https://www.inside-it.ch/articles/50118) über Lightning ausbezahlt kriegt,
     oder bei einer Finanzinstitution CHF direkt gegen Lightning-Guthaben tauscht.<br/>
     Somit müsste ein Channel theoretisch nie geschlossen werden.
