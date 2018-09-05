@@ -80,6 +80,13 @@ links oder rechts swipen/streichen:
 </tr>
 </table>
 
+Es empfiehlt sich, jetzt noch kurz die Einheiten anzupassen, die uns die App anzeigt.
+Die Folgenden Screenshots sind (grösstenteils) in CHF für die Fiat-Währungen und in
+Satoshi (= 0.00000001 Bitcoin/BTC) für die Bitcoin-Einheit abgebildet.<br/>
+Das Einstellungs-Menü findet man hier:<br/>
+<img src="../assets/img/lightning/settings.png" width="400">
+<img src="../assets/img/lightning/settings-units.png" width="400">
+
 ## Schritt 2: Bitcoin einkaufen
 
 Jetzt sind wir bereit, um das Wallet mit Bitcoin zu bestücken. Hier gibt es natürlich diverse
@@ -107,8 +114,10 @@ Konnte die Adresse eingelesen werden, wird sie am Automat angezeigt. Aus Sicherh
 kontrollieren wir kurz, ob es die korrekte Adresse ist (es empfiehlt sich, die ersten und letzten 4
 Zeichen einer Bitcoin-Adresse immer kurz zu prüfen!).
 
-Nun fragt der Automat nach einer Handy-Nummer und sendet nach Eingabe dieser ein SMS dahin.
-Den 4-stelligen Code vom SMS muss man nun auch im Automat eingeben.
+Jetzt wählen wir den Betrag aus, den wir in Bitcoin umwandeln wollen.
+
+Weiter fragt nun der Automat nach einer Handy-Nummer und sendet nach Eingabe dieser ein SMS dahin.
+Den 4-stelligen Code vom SMS muss man danach auch im Automat eingeben.
 
 Ist alles korrekt, wird nun eine Zusammenfassung angezeigt, welche auch den Bitcoin-Kurs und die
 Gebühren beinhaltet. Ist man damit einverstanden, kann man den gewählten Betrag bezahlen (mit Karte
@@ -133,8 +142,8 @@ Moment dauern, aber sobald das Guthaben auf der Karte ist, kann man es sehr einf
 ausgeben.
 
 Auch der letzte Schritt dauert einen Moment, denn auch hier wird wieder eine Transaktion in die
-Bitcoin-Blockchain geschrieben und braucht wieder 3 Confirmations. Dies ist aber das letzte Mal,
-das wir warten müssen. Ist der Channel erst einmal offen, geht alles blitzschnell.
+Bitcoin-Blockchain geschrieben und braucht wieder 3 Confirmations. Dies ist aber der letzte Schritt,
+bei dem wir warten müssen. Ist der Channel erst einmal offen, geht alles blitzschnell.
 
 1. Wir gehen mit einem Wisch nach rechts auf das Tab "Lightning Channels" und klicken auf den
   Button unten.<br/>
@@ -152,10 +161,12 @@ das wir warten müssen. Ist der Channel erst einmal offen, geht alles blitzschne
 1. Nun sollte der Bildschirm so oder ähnlich aussehen:<br/>
   <img src="../assets/img/lightning/mainnet-open-channel.png" width="400">
 1. Jetzt müssen wir den Betrag in Bitcoin eingeben, den wir in den Channel stecken möchten.
-  Dieser Betrag kann höchstens 0.16 BTC pro Channel sein.
+  Dieser Betrag kann höchstens 16'667'000 Satoshi (=0.16 BTC) pro Channel sein.
   Je nach Kurs haben wir aber deutlich weniger gekauft, deshalb möchten wir unter Umständen
   alle gekauften Bitcoins in den Channel stecken. Dies ist möglich, man muss aber vom gekauften
-  Betrag noch ca 0.00001 Bitcoin abziehen für die Channel-Eröffnungsgebühr.
+  Betrag noch ca 1000 Satoshi (≃0.00001 BTC) abziehen für die Channel-Eröffnungsgebühr.<br/>
+  Haben wir also beispielsweise 5'000'000 Satoshi zur Verfügung, dann geben wir bei der
+  "Channel capacity" die Zahl 4'999'000 ein.
 1. Wird der Betrag akzeptiert, dann sollte nun der Channel in Eröffnung sein:<br/>
   <img src="../assets/img/lightning/mainnet-wait-for-channel.png" width="400"><br/>
   War der gewählte Betrag zu gross, dann wird eine Fehlermeldung angezeigt werden und der Channel
@@ -169,22 +180,53 @@ das wir warten müssen. Ist der Channel erst einmal offen, geht alles blitzschne
   Dazu wählt man im Tab "Transaction History" den Button unten rechts und dann im Menü
   den Punkt "Scan A Payment Request", wonach man dann den QR-Code, den man bezahlen möchte, scannen
   kann:<br/>
-  <img src="../assets/img/lightning/mainnet-pay-menu.png" width="400">
+  <img src="../assets/img/lightning/mainnet-pay-menu.png" width="400"><br/>
+  Die App zeigt dann die Rechnung nochmals kurz an und kann dan bezahlt werden:<br/>
+  <img src="../assets/img/lightning/mainnet-pay-invoice.png" width="400">
 
-* Darauf hinweisen, warum Puzzle-Node, Vor-/Nachteile zeigen
-* Vergleich mit Prepaid-Guthaben aufstellen, aber mit Unterschied, dass
-  über den Channel auch Geld zurückfliessen kann
-* Dauert 3 Confirmations
+Hat die Zahlung geklappt? Ja? **Dann herzlichen Glückwunsch und willkommen in der Zukunft
+des Bezahlens!**
 
 # FAQ
 
-(work in progress...)
+* Warum eröffnen wir einen Channel mit der Puzzle-Node?
+  * Der Vorteil am Lightning Network (und an Bitcoin generell) ist, dass jeder einfach mitmachen
+    und auch seine eigene Node aufbauen kann. Weshalb soll ich mich dann zu Puzzle verbinden und
+    nicht zu irgend einer anderen Node?<br/>
+    Natürlich ist das jeder Person selbst überlassen. Wir von Puzzle ITC versprechen aber, dass
+    wir die Gebühren unserer Channels tief halten und uns um eine gute Liquidität kümmern werden.
+    Das heisst, wir wollen gut befüllte Channels zu allen Schweizer Verkäufern aufbauen, damit
+    alle Benutzer unserer Node sehr gute und kurze Routen zu allen Geschäften haben, die am
+    Lightning Network mitmachen.
 
-* Geld zurück verlangen?
-  * Payment Request erzeugen
+* Kann ich auch Geld empfangen über das Lightning Network?
+  * Im Protokoll ist das natürlich grundsätzlich möglich. Die Eclair-App unterstützt dies aber aus
+    technischen und sicherheitsrelevanten Gründen noch nicht. Dies wird sich aber hoffentlich
+    bald ändern.<br/>
+    [Mehr dazu in den FAQ von Eclair (Englisch)](https://github.com/ACINQ/eclair-wallet/wiki/FAQ). 
 
-* Was ist, wenn Geld im Channel aufgebraucht?
-  * Channel schliessen oder Geld zurück erhalten
+* Was passiert, wenn ich das Guthaben meines Channels aufgebraucht habe?
+  * Ist das Guthaben eines Channels aufgebraucht, dann kann darüber nicht mehr bezahlt werden.
+    Es muss also ein neuer Channel eröffnet werden. Zuknüftig, wenn man mit Eclair auch Geld
+    empfangen kann, dann ist es möglich, dass man im bereits eröffneten Channel wieder Guthaben zurück
+    erhält, das man dann wieder ausgeben kann. Beispielsweise, indem man
+    [einen Teil seines Lohns](https://www.inside-it.ch/articles/50118) über Lightning ausbezahlt kriegt,
+    oder bei einer Finanzinstitution CHF direkt gegen Lightning-Guthaben tauscht.<br/>
+    Somit müsste ein Channel theoretisch nie geschlossen werden.
  
-* Channel funktioniert nicht?
-  * App neu starten
+* Was mache ich, wenn mein Channel immer "OFFLINE" oder sonst in einem fehlerhaften Zustand stecken bleibt?
+  * Die Eclair-App hat noch einige Kinderkrankheiten, die hoffentlich mit Updates bald behoben werden.<br/>
+    Oft hilft es aber, die App komplett zu beenden (über das Android-Menü) und neu zu starten.<br/>
+    Manchmal hilft es auch, wenn man versucht einen neuen Channel zu eröffnen, dann werden die bestehenden
+    Channels auch noch einmal neu geprüft.<br/>
+    Evtl. helfen auch [die FAQ von Eclair (Englisch)](https://github.com/ACINQ/eclair-wallet/wiki/FAQ) weiter.
+
+* Wann gibt es eine App für iOS?
+  * Es gibt bereits eine [beachtliche Liste](http://lightningnetworkstores.com/wallets) an Wallets,
+    die auf dem Testnet für iOS verfügbar sind. Wann das erste davon für Mainnet herausgegeben wird,
+    ist schwierig zu sagen. Bis Ende 2018 sollte aber spätestens auch für iOS ein Wallet erhältlich sein,
+    das keine eigene "Full-Node" benötigt.<br/>
+    Traut man sich technisch etwas zu, kann man natürlich auf einem Server eine Lightning-Node aufsetzen
+    und dann von seinem iOS-Gerät aus diese fernsteuern. Anleitungen gibt es z.B.
+    [hier](https://www.lndthinwallet.com/) und
+    [hier](https://gist.github.com/bretton/0b22a0503a9eba09df86a23f3d625c13).
