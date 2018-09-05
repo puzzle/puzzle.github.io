@@ -35,14 +35,14 @@ bei anderen Apps sehr ähnlich sein und die Anleitung sollte deshalb auch für d
 benutzt werden können.
 
 1. Wir installieren uns nun die App "Eclair Wallet Mainnet" aus dem Google Play store:<br/>
-  <img src="../assets/img/lightning/store-eclair-mainnet.png" width="400">
+  <img class="shadow" src="../assets/img/lightning/store-eclair-mainnet.png" width="400">
 1. Beim Starten wird uns auch hier noch einmal mitgeteilt, dass es sich um "beta"-Software
   handelt:<br/>
-  <img src="../assets/img/lightning/mainnet-disclaimer.png" width="400">
+  <img class="shadow" src="../assets/img/lightning/mainnet-disclaimer.png" width="400">
 1. Nach der Bestätigung der Warnung, werden wir gefragt, ob wir ein neues Wallet
   einrichten oder ein bestehendes importieren wollen. Wir wollen ein neuer erstellen
   und wählen deshalb "Create New Wallet":<br/>
-  <img src="../assets/img/lightning/create-or-import.png" width="400">
+  <img class="shadow" src="../assets/img/lightning/create-or-import.png" width="400">
 1. Nun kommt ein sehr sehr wichtiger Teil: Die 24 Wörter.<br/>
   Hier gibt es absichtlich keinen Screenshot, weil diese 24 Wörter sehr geheim sind.
   Diese Wörter widerspiegeln den kryptografischen Zugangscode auf das gesamte Guthaben,
@@ -69,9 +69,9 @@ links oder rechts swipen/streichen:
 
 <table border="0" cellpadding="5">
 <tr>
-<td><img src="../assets/img/lightning/mainnet-screen-left.png" width="350"></td>
-<td><img src="../assets/img/lightning/mainnet-screen-center.png" width="350"></td>
-<td><img src="../assets/img/lightning/mainnet-screen-right.png" width="350"></td>
+<td><img class="shadow" src="../assets/img/lightning/mainnet-screen-left.png" width="350"></td>
+<td><img class="shadow" src="../assets/img/lightning/mainnet-screen-center.png" width="350"></td>
+<td><img class="shadow" src="../assets/img/lightning/mainnet-screen-right.png" width="350"></td>
 </tr>
 <tr>
 <td>Links: Bitcoin-Adresse</td>
@@ -84,8 +84,8 @@ Es empfiehlt sich, jetzt noch kurz die Einheiten anzupassen, die uns die App anz
 Die Folgenden Screenshots sind (grösstenteils) in CHF für die Fiat-Währungen und in
 Satoshi (= 0.00000001 Bitcoin/BTC) für die Bitcoin-Einheit abgebildet.<br/>
 Das Einstellungs-Menü findet man hier:<br/>
-<img src="../assets/img/lightning/settings.png" width="400">
-<img src="../assets/img/lightning/settings-units.png" width="400">
+<img class="shadow" src="../assets/img/lightning/settings.png" width="400">
+<img class="shadow" src="../assets/img/lightning/settings-units.png" width="400">
 
 ## Schritt 2: Bitcoin einkaufen
 
@@ -102,7 +102,7 @@ Jetzt müssen wir als erstes unsere Bitcoin-Adresse in den Automat einscannen. D
 öffnen wir die Eclair-App und wischen nach rechts, um auf das Tab "Your Bitcoin Address" zu
 gelangen.
 
-<img src="../assets/img/lightning/mainnet-receive.png" width="400">
+<img class="shadow" src="../assets/img/lightning/mainnet-receive.png" width="400">
 
 Der QR-Code, der dort angezeigt wird, muss nun beim Automaten vor die Kamera gehalten
 werden. Dies kann, je nach Lichtverhältnissen etwas schwierig sein.<br/>
@@ -125,7 +125,7 @@ oder bar). Natürlich erhält man nach dem Bezahlen auch eine detaillierte Papie
 
 In der App sollte es unter "Transaction History" nun etwa so aussehen:
 
-<img src="../assets/img/lightning/mainnet-incoming-tx.png" width="400">
+<img class="shadow" src="../assets/img/lightning/mainnet-incoming-tx.png" width="400">
 
 Die Überweisung wurde also registriert, aber sie ist noch nicht bestätigt ("0 confs").
 Sobald mindestens 3 Confirmations erreicht sind, gilt die Überweisung als getätigt und der
@@ -147,42 +147,42 @@ bei dem wir warten müssen. Ist der Channel erst einmal offen, geht alles blitzs
 
 1. Wir gehen mit einem Wisch nach rechts auf das Tab "Lightning Channels" und klicken auf den
   Button unten.<br/>
-  <img src="../assets/img/lightning/mainnet-channel-menu.png" width="400"><br/>
+  <img class="shadow" src="../assets/img/lightning/mainnet-channel-menu.png" width="400"><br/>
   Haben wir einen PC oder anderes Gerät in der Nähe, dann ist es am einfachsten,
   wenn wir dort die Webseite [lightning.puzzle.ch](https://lightning.puzzle.ch) aufrufen und
   dann vom Handy aus den QR-Code einscannen. Dazu wählen wir in der Eclair-App den Button
   "Scan A Node URI".<br/>
-  <img src="../assets/img/lightning/mainnet-scan-node-uri.png" width="400"><br/>
+  <img class="shadow" src="../assets/img/lightning/mainnet-scan-node-uri.png" width="400"><br/>
   Haben wir nur das Handy zur Verfügung, dann öffnen wir die Webseite
   [lightning.puzzle.ch](https://lightning.puzzle.ch) im Internetbrowser des Handys und kopieren
   den Text oberhalb des QR-Codes. Wichtig hier ist, dass der gesamte Text erwischt wird, also
   bis und mit <code>...@lightning.puzzle.ch:9735</code>.
   In der Eclair-App wählen wir nun "Paste A Node URI" und fügen den kopierten Text dort ein.
 1. Nun sollte der Bildschirm so oder ähnlich aussehen:<br/>
-  <img src="../assets/img/lightning/mainnet-open-channel.png" width="400">
+  <img class="shadow" src="../assets/img/lightning/mainnet-open-channel.png" width="400">
 1. Jetzt müssen wir den Betrag in Bitcoin eingeben, den wir in den Channel stecken möchten.
   Dieser Betrag kann höchstens 16'667'000 Satoshi (=0.16 BTC) pro Channel sein.
   Je nach Kurs haben wir aber deutlich weniger gekauft, deshalb möchten wir unter Umständen
   alle gekauften Bitcoins in den Channel stecken. Dies ist möglich, man muss aber vom gekauften
   Betrag noch ca 1000 Satoshi (≃0.00001 BTC) abziehen für die Channel-Eröffnungsgebühr.<br/>
-  Haben wir also beispielsweise 5'000'000 Satoshi zur Verfügung, dann geben wir bei der
-  "Channel capacity" die Zahl 4'999'000 ein.
+  Haben wir also beispielsweise 5'000'000 Satoshi zur Verfügung (gemäss Kontostand im Wallet),
+  dann geben wir bei der "Channel capacity" die Zahl 4'999'000 ein.
 1. Wird der Betrag akzeptiert, dann sollte nun der Channel in Eröffnung sein:<br/>
-  <img src="../assets/img/lightning/mainnet-wait-for-channel.png" width="400"><br/>
+  <img class="shadow" src="../assets/img/lightning/mainnet-wait-for-channel.png" width="400"><br/>
   War der gewählte Betrag zu gross, dann wird eine Fehlermeldung angezeigt werden und der Channel
   verschwindet unter Umständen wieder. Dann muss man den Betrag für die Channel-Kapazität beim nächsten
   Versuch kleiner wählen.<br/>
   Dieser Schritt erscheint unnötig kompliziert und das ist er auch. Hier wird sicherlich noch vieles
   optimiert werden an der Bedienerfreundlichkeit.
 1. Nach 3 Confirmations sollte der Channel dann ready sein: <br/>
-  <img src="../assets/img/lightning/mainnet-channel-ready.png" width="400">
+  <img class="shadow" src="../assets/img/lightning/mainnet-channel-ready.png" width="400">
 1. Ab sofort können nun "Lightning Network"-Zahlungen ausgeführt werden!<br/>
   Dazu wählt man im Tab "Transaction History" den Button unten rechts und dann im Menü
   den Punkt "Scan A Payment Request", wonach man dann den QR-Code, den man bezahlen möchte, scannen
   kann:<br/>
-  <img src="../assets/img/lightning/mainnet-pay-menu.png" width="400"><br/>
+  <img class="shadow" src="../assets/img/lightning/mainnet-pay-menu.png" width="400"><br/>
   Die App zeigt dann die Rechnung nochmals kurz an und kann dan bezahlt werden:<br/>
-  <img src="../assets/img/lightning/mainnet-pay-invoice.png" width="400">
+  <img class="shadow" src="../assets/img/lightning/mainnet-pay-invoice.png" width="400">
 
 Hat die Zahlung geklappt? Ja? **Dann herzlichen Glückwunsch und willkommen in der Zukunft
 des Bezahlens!**
