@@ -199,11 +199,13 @@ des Bezahlens!**
     alle Benutzer unserer Node sehr gute und kurze Routen zu allen Geschäften haben, die am
     Lightning Network mitmachen.
 
+
 * Kann ich auch Geld empfangen über das Lightning Network?
   * Im Protokoll ist das natürlich grundsätzlich möglich. Die Eclair-App unterstützt dies aber aus
     technischen und sicherheitsrelevanten Gründen noch nicht. Dies wird sich aber hoffentlich
     bald ändern.<br/>
     [Mehr dazu in den FAQ von Eclair (Englisch)](https://github.com/ACINQ/eclair-wallet/wiki/FAQ). 
+
 
 * Was passiert, wenn ich das Guthaben meines Channels aufgebraucht habe?
   * Ist das Guthaben eines Channels aufgebraucht, dann kann darüber nicht mehr bezahlt werden.
@@ -214,12 +216,14 @@ des Bezahlens!**
     oder bei einer Finanzinstitution CHF direkt gegen Lightning-Guthaben tauscht.<br/>
     Somit müsste ein Channel theoretisch nie geschlossen werden.
  
+ 
 * Was mache ich, wenn mein Channel immer "OFFLINE" oder sonst in einem fehlerhaften Zustand stecken bleibt?
   * Die Eclair-App hat noch einige Kinderkrankheiten, die hoffentlich mit Updates bald behoben werden.<br/>
     Oft hilft es aber, die App komplett zu beenden (über das Android-Menü) und neu zu starten.<br/>
     Manchmal hilft es auch, wenn man versucht einen neuen Channel zu eröffnen, dann werden die bestehenden
     Channels auch noch einmal neu geprüft.<br/>
     Evtl. helfen auch [die FAQ von Eclair (Englisch)](https://github.com/ACINQ/eclair-wallet/wiki/FAQ) weiter.
+
 
 * Wann gibt es eine App für iOS?
   * Es gibt bereits eine [beachtliche Liste](http://lightningnetworkstores.com/wallets) an Wallets,

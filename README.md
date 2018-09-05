@@ -15,3 +15,6 @@
 
 * [Einrichten eines Mainnet-Lightning-Network-Wallets (German)](de/tutorial-mainnet-lightning-network-wallet.md)
 
+## Slides
+
+* [Lightning Network Workshop](en/slides-lightning-workshop.html)
