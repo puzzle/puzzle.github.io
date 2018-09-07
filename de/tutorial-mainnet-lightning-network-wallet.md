@@ -1,5 +1,7 @@
 # Wallet einrichten für das "Lightning Network" auf dem Mainnet
 
+[The English version is here.](../en/tutorial-mainnet-lightning-network-wallet.md)
+
 Zahlungen mit dem Lightning Network gehen blitzschnell. Bis jedoch das
 Gerät soweit hat, dass Zahlungen ausgeführt werden, dauert es einen Moment.
 
@@ -27,7 +29,7 @@ oder für eine gewisse Zeit nicht zugänglich sein.
 ## Schritt 1: App installieren
 
 Zum Entstehungszeitpunkt dieses Artikels (Anfang September 2018) gibt es nur
-Mainnet-kompatible Apps für Android-Geräte. Apps für iOS werden hoffentlich
+Mainnet-kompatible Apps für Android-Geräte. Apps für Apple-iOS werden hoffentlich
 bald erscheinen.
 
 Die ersichtlichen Screenshots sind alle vom "Eclair" Wallet. Das Prinzip sollte aber
@@ -48,7 +50,7 @@ bei anderen Apps ähnlich sein und deshalb kann diese Anleitung verwendet werden
   das später in dem Wallet sein wird. Das heisst, wer die Wörter kennt, hat Zugriff
   auf das Geld.<br/>
   Deshalb:
-   - **Wörter aufgschreiben und an einem sicheren Ort aufbewahren**: Wenn das Handy
+   - **Wörter aufschreiben und an einem sicheren Ort aufbewahren**: Wenn das Handy
    defekt ist, oder verloren geht, dann kann mit den Wörtern das Guthaben widerhergestellt
    werden. Ohne die Wörter, ist alles weg! Es gibt keine Bank die "das Konto entsperren"
    kann. Daher am besten in den Safe mit dem Zettel.
@@ -82,7 +84,7 @@ links oder rechts swipen/streichen:
 
 Es empfiehlt sich, jetzt noch kurz die Einheiten anzupassen, die uns die App anzeigt.
 Die Folgenden Screenshots sind (grösstenteils) in CHF für die Fiat-Währungen und in
-Satoshi (= 0.00000001 Bitcoin/BTC) für die Bitcoin-Einheit abgebildet.<br/>
+Satoshi (= 0.00000001 Bitcoin, BTC) für die Bitcoin-Einheit abgebildet.<br/>
 Das Einstellungs-Menü findet man hier:<br/>
 <img class="shadow" src="../assets/img/lightning/settings.png" width="400">
 <img class="shadow" src="../assets/img/lightning/settings-units.png" width="400">
@@ -131,7 +133,7 @@ Die Überweisung wurde registriert, ist aber noch nicht bestätigt ("0 confs").
 Sobald mindestens 3 Confirmations erreicht sind, gilt die Überweisung als getätigt und der
 Betrag kann in der App verwendet werden.
 
-[Weitere Informationen zum Kauf von Bitcoin am SBB-Automaten](https://www.sbb.ch/de/bahnhof-services/dienstleistungen/weitere-dienstleistungen/bitcoin.html)
+[Weitere Informationen zum Kauf von Bitcoin am SBB-Automaten.](https://www.sbb.ch/de/bahnhof-services/dienstleistungen/weitere-dienstleistungen/bitcoin.html)
 
 ## Schritt 3: Channel zu Puzzle-Node eröffnen
 
@@ -145,7 +147,7 @@ Der letzte Schritt dauert einen Moment, denn auch hier wird wieder eine Transakt
 Bitcoin-Blockchain geschrieben und braucht wieder drei Confirmations. Dies ist aber der letzte Schritt,
 bei dem wir warten müssen. Ist der Channel erst einmal offen, geht alles blitzschnell.
 
-1. Wir gehen mit einem Wisch nach rechts auf das Tab "Lightning Channels" und klicken auf den
+1. Wir gehen mit einem Wisch nach links auf das Tab "Lightning Channels" und klicken auf den
   Button unten.<br/>
   <img class="shadow" src="../assets/img/lightning/mainnet-channel-menu.png" width="400"><br/>
   Haben wir einen PC oder anderes Gerät in der Nähe, dann ist es am einfachsten,
@@ -164,7 +166,7 @@ bei dem wir warten müssen. Ist der Channel erst einmal offen, geht alles blitzs
   Dieser Betrag kann höchstens 16'667'000 Satoshi (=0.16 BTC) pro Channel sein.
   Je nach Kurs haben wir aber deutlich weniger gekauft, deshalb möchten wir unter Umständen
   alle gekauften Bitcoins in den Channel stecken. Dies ist möglich, man muss aber vom gekauften
-  Betrag noch ca 1000 Satoshi (≃0.00001 BTC) abziehen für die Channel-Eröffnungsgebühr.<br/>
+  Betrag noch ca 1000 Satoshi (=0.00001 BTC) abziehen für die Channel-Eröffnungsgebühr.<br/>
   Haben wir also beispielsweise 5'000'000 Satoshi zur Verfügung (gemäss Kontostand im Wallet),
   dann geben wir bei der "Channel capacity" die Zahl 4'999'000 ein.
 1. Wird der Betrag akzeptiert, dann sollte nun der Channel eröffnet werden:<br/>
