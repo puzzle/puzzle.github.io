@@ -13,7 +13,7 @@
 
 ## Tutorials
 
-* [Wallet einrichten für das "Lightning Network" auf dem Mainnet (German)](de/tutorial-mainnet-lightning-network-wallet.md)
+* [Setup a wallet for the "Lightning Network" on Mainnet](en/tutorial-mainnet-lightning-network-wallet.md)
 
 ## Slides
 
