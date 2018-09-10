@@ -3,7 +3,7 @@
 [The English version is here.](../en/tutorial-mainnet-lightning-network-wallet.md)
 
 Zahlungen mit dem Lightning Network gehen blitzschnell. Bis jedoch das
-Gerät soweit hat, dass Zahlungen ausgeführt werden, dauert es einen Moment.
+Gerät soweit ist, dass Zahlungen ausgeführt werden, dauert es einen Moment.
 
 Diese Anleitung ist für technisch weniger versierte Benutzer, welche
 mit dem Handy bezahlen möchten. Deshalb zeigen wir den Prozess anhand
@@ -227,7 +227,7 @@ des Bezahlens!**
     Evtl. helfen auch [die FAQ von Eclair (Englisch)](https://github.com/ACINQ/eclair-wallet/wiki/FAQ) weiter.
 
 
-* Wann gibt es eine App für iOS?
+* Wann gibt es eine App für Apple iOS?
   * Es gibt bereits eine [beachtliche Liste](http://lightningnetworkstores.com/wallets) an Wallets,
     die auf dem Testnet für iOS verfügbar sind. Wann das erste davon für Mainnet herausgegeben wird,
     ist schwierig zu sagen. Bis Ende 2018 sollte aber spätestens auch für iOS ein Wallet erhältlich sein,

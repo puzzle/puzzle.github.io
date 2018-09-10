@@ -177,64 +177,54 @@ will be as fast as lightning.
   All you need to do is go to the tab "Transaction History", tap the button on the bottom right
   and select "Scan A Payment Request":<br/>
   <img class="shadow" src="../assets/img/lightning/mainnet-pay-menu.png" width="400">
-  <br/>Scan the QR code of something you want to pay with
-  the Lightning Network and confirm the payment:<br/>
-  
-1. Ab sofort können nun "Lightning Network"-Zahlungen ausgeführt werden!<br/>
-  Dazu wählt man im Tab "Transaction History" den Button unten rechts und dann im Menü
-  den Punkt "Scan A Payment Request", wonach man dann den QR-Code, den man bezahlen möchte, scannen
-  kann:<br/>
-  <img class="shadow" src="../assets/img/lightning/mainnet-pay-menu.png" width="400"><br/>
-  Die App zeigt dann die Rechnung nochmals kurz an und kann dan bezahlt werden:<br/>
-  <img class="shadow" src="../assets/img/lightning/mainnet-pay-invoice.png" width="400">
-
-Hat die Zahlung geklappt? Ja? **Dann herzlichen Glückwunsch und willkommen in der Zukunft
-des Bezahlens!**
+  <br/>Scan the QR code of something you want to pay with the Lightning Network and review the
+  payment details shown by the app:<br/>
+  <img class="shadow" src="../assets/img/lightning/mainnet-pay-invoice.png" width="400"><br/>
+  If you want to proceed with the payment, tap the "Pay" button. 
+    
+Did the payment work? Yes? **Congratulations and welcome to the future of payments!**
 
 # FAQ
 
-* Warum eröffnen wir einen Channel mit der Puzzle-Node?
-  * Der Vorteil am Lightning Network (und an Bitcoin generell) ist, dass jeder einfach mitmachen
-    und auch seine eigene Node aufbauen kann. Weshalb soll ich mich dann zu Puzzle verbinden und
-    nicht zu irgend einer anderen Node?<br/>
-    Natürlich ist das jeder Person selbst überlassen. Wir von Puzzle ITC versprechen aber, dass
-    wir die Gebühren unserer Channels tief halten und uns um eine gute Liquidität kümmern werden.
-    Das heisst, wir wollen gut befüllte Channels zu allen Schweizer Verkäufern aufbauen, damit
-    alle Benutzer unserer Node sehr gute und kurze Routen zu allen Geschäften haben, die am
-    Lightning Network mitmachen.
+* Why are we opening a channel with Puzzle ITC's node?
+  * The big advantage of the Lightning Network (and Bitcoin in general) is, that everybody can
+    just participate and build their own node. So why should I connect and open a channel with
+    Puzzle's node and not any other?<br/>
+    Of course that's up to every person to decide for themselves. But we, Puzzle ITC, promise
+    that we are going to keep the fees of our channels low and liquidity high. We will provide
+    large and stable payment channels to all Lightning Network enabled Swiss merchants so our
+    users will always have optimal payment routes to all the shops they want to conduct business
+    with.
 
+* Can I receive payments through the Lightning Network?
+  * At the protocol level, this is of course possible. But the Eclair app does not support this
+    at the moment for technical and security based reasons. This will hopefully change soon.<br/>
+    [More about this in the Eclair FAQ](https://github.com/ACINQ/eclair-wallet/wiki/FAQ).
 
-* Kann ich auch Geld empfangen über das Lightning Network?
-  * Im Protokoll ist das natürlich grundsätzlich möglich. Die Eclair-App unterstützt dies aber aus
-    technischen und sicherheitsrelevanten Gründen noch nicht. Dies wird sich aber hoffentlich
-    bald ändern.<br/>
-    [Mehr dazu in den FAQ von Eclair (Englisch)](https://github.com/ACINQ/eclair-wallet/wiki/FAQ). 
+* What happens, if the balance of my channel is used up?
+  * If the balance of a payment channel is used up, it cannot be used for payments again.
+    A new channel has to be opened. In the future, when receiving money through the Eclair app is
+    possible too, it will be possible to get balance back through a channel that is already open.
+    For example, by [receiving part of your salary](https://www.inside-it.ch/articles/50118) through
+    the Lightning Network would mean the channels could be refilled and would be ready for payments
+    again. Another possibility would be a financial institute that offers buying Lightning Channel
+    balance with CHF directly.<br/>
+    In theory a channel never needs to be closed as long as balance is being moved back and forth.
 
-
-* Was passiert, wenn ich das Guthaben meines Channels aufgebraucht habe?
-  * Ist das Guthaben eines Channels aufgebraucht, dann kann darüber nicht mehr bezahlt werden.
-    Es muss also ein neuer Channel eröffnet werden. Zukünftig, wenn man mit Eclair auch Geld
-    empfangen kann, dann ist es möglich, dass man im bereits eröffneten Channel wieder Guthaben zurück
-    erhält, das wieder ausgeben kann. Beispielsweise, indem man
-    [einen Teil seines Lohns](https://www.inside-it.ch/articles/50118) über Lightning ausbezahlt kriegt,
-    oder bei einer Finanzinstitution CHF direkt gegen Lightning-Guthaben tauscht.<br/>
-    Somit müsste ein Channel theoretisch nie geschlossen werden.
+* What do I do if my channel is always "OFFLINE" or in another error state?
+  * The Eclair app has some bugs still that are hopefully going to be fixed soon.<br/>
+    Sometimes it helps to close the app completely (through the android app overview menu) and re-start
+    it again.<br/>
+    Sometimes it also helps to try to open a new channel. The existing channels are then checked and
+    refreshed as well.<br/>
+    You can also try [consulting the FAQ of Eclair](https://github.com/ACINQ/eclair-wallet/wiki/FAQ).
  
- 
-* Was mache ich, wenn mein Channel immer "OFFLINE" oder sonst in einem fehlerhaften Zustand stecken bleibt?
-  * Die Eclair-App hat noch einige Kinderkrankheiten, die hoffentlich mit Updates bald behoben werden.<br/>
-    Oft hilft es aber, die App komplett zu beenden (über das Android-Menü) und neu zu starten.<br/>
-    Manchmal hilft es auch, wenn man versucht einen neuen Channel zu eröffnen, dann werden die bestehenden
-    Channels auch noch einmal neu geprüft.<br/>
-    Evtl. helfen auch [die FAQ von Eclair (Englisch)](https://github.com/ACINQ/eclair-wallet/wiki/FAQ) weiter.
-
-
-* Wann gibt es eine App für iOS?
-  * Es gibt bereits eine [beachtliche Liste](http://lightningnetworkstores.com/wallets) an Wallets,
-    die auf dem Testnet für iOS verfügbar sind. Wann das erste davon für Mainnet herausgegeben wird,
-    ist schwierig zu sagen. Bis Ende 2018 sollte aber spätestens auch für iOS ein Wallet erhältlich sein,
-    das keine eigene "Full-Node" benötigt.<br/>
-    Traut man sich technisch etwas zu, kann man natürlich auf einem Server eine Lightning-Node aufsetzen
-    und dann von seinem iOS-Gerät aus diese fernsteuern. Anleitungen gibt es z.B.
-    [hier](https://www.lndthinwallet.com/) und
-    [hier](https://gist.github.com/bretton/0b22a0503a9eba09df86a23f3d625c13).
+* When will there be an app for Apple iOS?
+  * There already is a [list of wallet apps](http://lightningnetworkstores.com/wallets) that are available
+    for iOS, but only on Bitcoin Testnet. When the first of them will be released for Mainnet is hard to
+    say. Our guess is that by the end of 2018 there should be one or more apps for iOS be available for
+    Bitcoin Mainnet that don't require the user to set up their own "full node".<br/>
+    If you are tech savvy and trust yourself to set up a Lightning Network node, you can remote control
+    that node from iOS with apps available today. There are tutorials available
+    [here](https://www.lndthinwallet.com/) and
+    [here](https://gist.github.com/bretton/0b22a0503a9eba09df86a23f3d625c13).
