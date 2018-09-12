@@ -8,7 +8,7 @@
 
 ## Documentation
 
-* [OpenShift Documentation](http://appuio-community-documentation.rtfd.org/)
+* [APPUiO Documentation](http://appuio-community-documentation.rtfd.org/)
   ([repo](https://github.com/appuio/docs))
 
 ## Tutorials
