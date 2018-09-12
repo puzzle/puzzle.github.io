@@ -15,6 +15,11 @@
 
 * [Setup a wallet for the "Lightning Network" on Mainnet](en/tutorial-mainnet-lightning-network-wallet.md)
 
+## Examples
+
+* [WebAssembly "Hello, World!" in C](https://github.com/puzzle/wasm-hello)
+* [WebAssembly "Hello, World!" in Java](https://github.com/puzzle/wasm-hello-java)
+
 ## Slides
 
 * [Lightning Network Workshop](en/slides-lightning-workshop.html)
