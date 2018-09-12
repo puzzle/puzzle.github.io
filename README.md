@@ -8,12 +8,17 @@
 
 ## Documentation
 
-* [OpenShift Documentation](http://appuio-community-documentation.rtfd.org/)
+* [APPUiO Documentation](http://appuio-community-documentation.rtfd.org/)
   ([repo](https://github.com/appuio/docs))
 
 ## Tutorials
 
 * [Setup a wallet for the "Lightning Network" on Mainnet](en/tutorial-mainnet-lightning-network-wallet.md)
+
+## Examples
+
+* [WebAssembly "Hello, World!" in C](https://github.com/puzzle/wasm-hello)
+* [WebAssembly "Hello, World!" in Java](https://github.com/puzzle/wasm-hello-java)
 
 ## Slides
 
