@@ -23,3 +23,7 @@
 ## Slides
 
 * [Lightning Network Workshop](en/slides-lightning-workshop.html)
+
+## Other
+
+* [Visualisation of the Lightning Network salary payments at Puzzle ITC](/beadnet/)
