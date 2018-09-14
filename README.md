@@ -19,6 +19,7 @@
 
 * [WebAssembly "Hello, World!" in C](https://github.com/puzzle/wasm-hello)
 * [WebAssembly "Hello, World!" in Java](https://github.com/puzzle/wasm-hello-java)
+* [A self-contained (Ruby on Rails) development environment with Docker](https://github.com/puzzle/dockerized-rails-development)
 
 ## Slides
 
