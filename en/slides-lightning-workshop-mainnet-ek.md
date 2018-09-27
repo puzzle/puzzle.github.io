@@ -77,6 +77,20 @@ Visualization: [puzzle.github.io](https://puzzle.github.io)
 <!-- .slide: class="master05" -->
 
 <!-- section -->
+### Live Demo
+<!-- .slide: class="master01" -->
+
+<!-- section -->
+### Disclaimer
+All software that is currently available for the Lightning Network is in "alpha"
+or "beta" status. That means, it has not yet been marked as fully stable.
+It is possible that errors appear due to bugs and that money is lost or locked up for
+a certain time.<br/>
+<strong>Therefore please use small amounts or try with testnet!</strong><br/>
+<small>But we salute you, #reckless mainnet pioneers!</small>
+<!-- .slide: class="master01" -->
+
+<!-- slide -->
 ### Hands-on
 * Tutorial: [puzzle.github.io](https://puzzle.github.io)
   * Install Eclair
