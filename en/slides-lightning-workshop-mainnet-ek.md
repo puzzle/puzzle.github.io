@@ -55,23 +55,23 @@ Puzzle ITC, contributor to LND
 <li class="fragment fade-in">Scaling solution for Bitcoin</li>
 <li class="fragment fade-in">Layer 2 implemented with Smart Contracts</li>
 <li class="fragment fade-in">Trustless micropayments in milliseconds</li>
-<li class="fragment fade-in">Analogy: Savings Account (<span style="font-family: bitcoinregular">Ƀ</span> )
-  vs Checking Account (&#x26A1;)</li>
+<li class="fragment fade-in">
+  Or: Savings (<span style="font-family: bitcoinregular">Ƀ</span>) vs. Checking (&#x26A1;) account
+</li>
 </ul>
 <!-- .slide: class="master05" -->
 
-<!-- section -->
+<!-- slide -->
 ### What is the Lightning Network (2)?
-* Advantages
-   * Scalability: billions of users
-   * Speed: 500 tx/s per channel
-   * Reliability: synchronous real-time payments
-   * Privacy: individual payments are private
-   * Cost: fees are very low
-   * Innovation: don't compromise base layer
+* Scalability: billions of users
+* Speed: 500 tx/s per channel
+* Reliability: synchronous real-time payments
+* Privacy: individual payments are private
+* Cost: fees are very low
+* Innovation: don't compromise base layer
 <!-- .slide: class="master05" -->
 
-<!-- section -->
+<!-- slide -->
 ### What is the Lightning Network (3)?
 Visualization: [puzzle.github.io](https://puzzle.github.io)
 <!-- .slide: class="master05" -->
@@ -86,4 +86,4 @@ Visualization: [puzzle.github.io](https://puzzle.github.io)
   * Install any app from [lightningnetworkstores.com/wallets](http://lightningnetworkstores.com/wallets)
   * Ask Oli for Testnet Bitcoin
   * Open channel ([lightning-test.puzzle.ch](https://lightning-test.puzzle.ch))
-<!-- .slide: class="master05" -->
+<!-- .slide: class="master01" -->
