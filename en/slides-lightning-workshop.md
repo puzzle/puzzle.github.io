@@ -10,42 +10,51 @@ Oliver Gugger
 [github.com/guggero](https://github.com/guggero)
 
 Part of the Lightning Network team at<br/>
-Puzzle ITC, contributor to lnd
+Puzzle ITC, contributor to LND
 
 <!-- .slide: class="master02" -->
+
 
 <!-- slide -->
+Puzzle ITC GmbH: Open Source software company in Berne, Switzerland.
+
+* Involved in Lightning Network since Oct. 2017
+* Team of 5 people working on Bitcoin/Lightning
+* Part of salary in Bitcoin since Aug. 2018
+* Showcase project with Energy Kitchen in Sep. 2018
+* Lightning enabled Beer Tap in Oct. 2018
+
+<!-- .slide: class="master03" -->
+
+<!-- section -->
 ### Workshop: The Lightning Network
 
-Notes at: https://beta.etherpad.org/p/lightning-workshop
+Notes at:
 
-<!-- .slide: class="master02" -->
+[beta.etherpad.org/p/lightning-workshop](https://beta.etherpad.org/p/lightning-workshop)
+
+Slides at:
+
+[puzzle.github.io](https://puzzle.github.io)
+
+<!-- .slide: class="master04" -->
 
 
 <!-- section -->
-### The current state of Bitcoin (2018-05-10)
- - SegWit is enabled
-   ![SegWit transactions percentage](../assets/img/slides-lightning-workshop/segwit-tx-percentage.jpg)
-   <small>from: segwit.party/charts/</small>
+### The current state of Bitcoin (2018-11-12)
+ - SegWit is enabled and scaling
+   ![SegWit transactions percentage](../assets/img/slides-lightning-workshop/segwit-tx-percentage.png)
+   <small>from: http://charts.woobull.com/bitcoin-segwit-adoption</small>
 <!-- .slide: class="master03" -->
 
 
 <!-- slide -->
-### The current state of Bitcoin (2018-05-24)
- - Mempool is emptying
+### The current state of Bitcoin (2018-11-12)
+ - Mempool is pretty empty, fees low
    ![Mempool transaction count](../assets/img/slides-lightning-workshop/mempool-tx-count.png)
-   <!-- .element width="75%" -->
-   <small>from: blockchain.info/charts/mempool-count</small>
+   <!-- .element width="85%" -->
+   <small>from: https://jochen-hoenicke.de/queue</small>
 <!-- .slide: class="master04" -->
-
-
-<!-- slide -->
-### The current state of Bitcoin (2018-05-24)
- - Fees dropped massively
-   ![Mempool transaction count](../assets/img/slides-lightning-workshop/mempool-tx-fees.png)
-   <small>from: dedi.jochen-hoenicke.de/queue</small>
-<!-- .slide: class="master05" -->
-
 
 
 <!-- section -->
@@ -53,7 +62,7 @@ Notes at: https://beta.etherpad.org/p/lightning-workshop
  - When demand is high, the fees fluctuate even more than price <br/>
    ![SegWit transactions percentage](../assets/img/slides-lightning-workshop/mempool-tx-fees-december-17.png)
    <!-- .element width="75%" -->
-   <small>from: dedi.jochen-hoenicke.de/queue</small>
+   <small>from: https://jochen-hoenicke.de/queue</small>
 <!-- .slide: class="master03" -->
 
 
@@ -105,6 +114,8 @@ Sure, because downloading 5.3 GB every 10 minutes is no problem!
  - Routing payments like TCP/IP
 
 ![network](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/17_node_mesh_network.png/300px-17_node_mesh_network.png)
+
+ - Visualisation: [puzzle.github.io/beadnet/](https://puzzle.github.io/beadnet/)
 <!-- .slide: class="master05" -->
 
 
