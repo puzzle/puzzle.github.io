@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+  <title>JHipster</title>
+
+  <link rel="stylesheet" href="../assets/reveal.js-3.6.0/css/reveal.css">
+  <link rel="stylesheet" href="../assets/reveal.js-3.6.0/css/theme/puzzle.css">
+
+  <!-- Theme used for syntax highlighting of code -->
+  <link rel="stylesheet" href="../assets/reveal.js-3.6.0/lib/css/zenburn.css">
+
+  <!-- Printing and PDF exports -->
+  <script>
+    var link = document.createElement('link');
+    link.rel = 'stylesheet';
+    link.type = 'text/css';
+    link.href = window.location.search.match(/print-pdf/gi) ? '../assets/reveal.js-3.6.0/css/print/pdf.css' : '../assets/reveal.js-3.6.0/css/print/paper.css';
+    document.getElementsByTagName('head')[0].appendChild(link);
+  </script>
+</head>
+<body>
+
+<div class="reveal">
+  <div class="slides">
+    <section data-markdown="slides-jhipster.md"
+             data-separator="<!-- section -->"
+             data-separator-vertical="<!-- slide -->"
+             data-charset="utf-8">
+    </section>
+  </div>
+</div>
+
+<script src="../assets/reveal.js-3.6.0/lib/js/head.min.js"></script>
+<script src="../assets/reveal.js-3.6.0/js/reveal.js"></script>
+
+<script>
+  // More info about config & dependencies:
+  // - https://github.com/hakimel/reveal.js#configuration
+  // - https://github.com/hakimel/reveal.js#dependencies
+  Reveal.initialize({
+    dependencies: [
+      { src: '../assets/reveal.js-3.6.0/plugin/markdown/marked.js' },
+      { src: '../assets/reveal.js-3.6.0/plugin/markdown/markdown.js' },
+      { src: '../assets/reveal.js-3.6.0/plugin/notes/notes.js', async: true },
+      {
+        src: '../assets/reveal.js-3.6.0/plugin/highlight/highlight.js', async: true, callback: function () {
+          hljs.initHighlightingOnLoad();
+        }
+      }
+    ],
+    history: true,
+    slideNumber: true,
+  });
+</script>
+</body>
+</html>
