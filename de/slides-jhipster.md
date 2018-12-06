@@ -5,7 +5,7 @@
 <!-- section -->
 <!-- .slide: class="master02" -->
 ### JHipster
-Sombra González Fuertes<br>
+Sombra González<br>
 Adrian Bader
 
 
