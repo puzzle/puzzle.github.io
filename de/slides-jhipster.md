@@ -30,12 +30,6 @@ Angular oder React zu generieren
     * Microservice gateway: Edge server
     * Hipster UAA server: OAuth2 authentication server
 
-<!-- section -->
-<!-- .slide: class="master04" -->
-### Microservices mit JHipster
-
-![](../assets/img/jhipster/microservices.png)
-
 <!-- slide -->
 <!-- .slide: class="master03" -->
 ### Client-side Technologien
@@ -100,6 +94,59 @@ $ yarn global add generator-jhipster
 * JHipster Marketplace
 * JHipster Modules :  Yeoman generator basiert auf einen JHipster sub-generator
 
+<!-- slide -->
+<!-- .slide: class="master04" -->
+### Microservices mit JHipster
+
+![](../assets/img/jhipster/microservices.png)
+
+<!-- slide -->
+<!-- .slide: class="master04" -->
+### Microservices - JHipster Registry (1)
+* Wird nicht via JHipster generiert - Projekt auf GitHub:
+```bash
+git@github.com:jhipster/jhipster-registry.git
+```
+* Eureka Server <small>spring-cloud-netflix</small>
+    * Service / Application discovery
+
+<!-- slide -->
+<!-- .slide: class="master04" -->
+### Microservices - JHipster Registry (2)
+* Config Server <small>spring-cloud-config</small>
+   * Runtime Configuration für alle Services / Applikationen
+<br><br>
+* Admin Dashboard zum Monitoren / Managen der Applikationen
+
+<!-- slide -->
+<!-- .slide: class="master04" -->
+### Microservices - JHipster Gateway
+* Wird via JHipster erstellt
+* Beinhaltet das UI
+* Admin-Interface für Entities / Gateway-Backend
+* Proxy / Loadbalancer zu den Microservices
+* Accesscontrol / Anbindung OAuth2
+
+<!-- slide -->
+<!-- .slide: class="master04" -->
+### Microservices - JHipster Console
+* Wird nicht via JHipster generiert
+* Projekt auf GitHub:
+```bash
+git@github.com:jhipster/jhipster-console.git
+```
+* Elasticsearch
+* Logstash
+* Kibana 
+
+<!-- slide -->
+<!-- .slide: class="master04" -->
+### Microservices - Demo
+* JHipster Registry starten
+* Microservice erstellen und Entitiy hinzufügen
+* Gateway erstellen und Entity hinzüfgen / importieren 
+* Logging aktivieren -> JHipster Console starten
+* Hazelcast Management Console aktivieren 
 
 <!-- slide -->
 <!-- .slide: class="master03" -->
