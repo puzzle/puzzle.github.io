@@ -5,8 +5,8 @@
 <!-- section -->
 <!-- .slide: class="master02" -->
 ### JHipster
-Sombra González<br>
-Adrian Bader
+Adrian Bader<br>
+Sombra González
 
 
 <!-- section -->
@@ -20,35 +20,59 @@ Angular oder React zu generieren
 
 ![](../assets/img/jhipster/jhipster.png)
 
+<!-- section -->
+<!-- .slide: class="master04" -->
+### Applikationenarten
 
-<!-- slide -->
-<!-- .slide: class="master03" -->
+* Monolithic application
+* Microservice 
+    * Microservice application: Services
+    * Microservice gateway: Edge server
+    * Hipster UAA server: OAuth2 authentication server
+
+<!-- section -->
+<!-- .slide: class="master04" -->
 ### Microservices mit JHipster
 
 ![](../assets/img/jhipster/microservices.png)
 
 <!-- slide -->
-<!-- .slide: class="master04" -->
+<!-- .slide: class="master03" -->
 ### Client-side Technologien
-TODO: ist das aktuell??
-* YEOMAN
-* webpack
-* Angular
-* React
+
+* Angular / React
 * Bootstrap
-
-
-<!-- slide -->
-<!-- .slide: class="master04" -->
-### Server-side Technologien
-TODO: ist das aktuell??
-* Maven/Gradle
-* Spring (Boot), Spring MVC, Spring Data
-* NETFLIX OSS
+* HTML5 Boilerplate
+* Internationalization support
+* Sass für CSS design
+* NPM
+* Webpack
+* Testing : Jest & Protractor
 
 
 <!-- slide -->
 <!-- .slide: class="master05" -->
+### Server-side Technologien
+
+* Spring Boot
+* Spring Security
+* Spring MVC REST + Jackson
+* Optional Spring Websocket
+* Spring Data JPA + Bean Validation
+* Maven or Gradle
+* Kafka
+
+<!-- slide -->
+<!-- .slide: class="master05" -->
+### Server-side Technologien - DB
+
+* Liquibase
+* Elasticsearch
+* NoSQL : MongoDB / Couchbase / Cassandra
+
+
+<!-- slide -->
+<!-- .slide: class="master03" -->
 ### Installation
 
 * JHipster kann ohne Installation via [JHipster Online](https://start.jhipster.tech) verwendet werden (Account erforderlich)
@@ -59,5 +83,25 @@ $ yarn global add yo
 $ yarn global add generator-jhipster
 
 ```
+<!-- slide -->
+<!-- .slide: class="master03" -->
+### Generators
+* Yeoman
+* Generators
+   * Applikation
+   * Entity : Command line + JHipster UML & JDL Studio
+   * Spring Controller 
+   * Spring Service
+   * DTO (Beta)
 
+<!-- slide -->
+<!-- .slide: class="master03" -->
+### Generators
+* JHipster Marketplace
+* JHipster Modules :  Yeoman generator basiert auf einen JHipster sub-generator
+
+
+<!-- slide -->
+<!-- .slide: class="master03" -->
+### Pros & Cons
 
