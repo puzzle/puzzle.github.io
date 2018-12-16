@@ -5,6 +5,8 @@
 * [Jenkins Pipelines](https://puzzle.github.io/jenkins-techlab)
   ([repo](https://github.com/puzzle/jenkins-techlab/))
 * [APPUiO - OpenShift 3 Techlab (German)](https://github.com/appuio/techlab)
+* [Kubernetes Techlab](https://github.com/puzzle/kubernetes-techlab)
+* [Docker Techlab](https://github.com/puzzle/docker-techlab/)
 
 ## Documentation
 
