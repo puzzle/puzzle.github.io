@@ -106,6 +106,10 @@ $ yarn global add generator-jhipster
 <!-- slide -->
 <!-- .slide: class="master03" -->
 ### Demo Monolithic application
+* Generierung (mit Options)
+* Code-Basis
+* Login
+* Metrics & Log-Level im Runtime updaten
 
 <!-- section -->
 <!-- .slide: class="master04" -->
@@ -176,3 +180,6 @@ git@github.com:jhipster/jhipster-console.git
 * [-] Dependency-Überraschungen ("Zalando"...)
 * [-] Zum Teil wenig Optionen (z.B. Liquibase vs FlyWay)
 
+<!-- slide -->
+<!-- .slide: class="master04" -->
+### Vielen Dank & Schöne Weihnachten
