@@ -163,11 +163,16 @@ git@github.com:jhipster/jhipster-console.git
 
 <!-- section -->
 <!-- .slide: class="master03" -->
-### Pros & Cons
+### Pros
 * [+] Best Practises, Guidelines
 * [+] Funktionierende Basis -> TTM
-* [+] Aktuellster Tech-Stack<br><br>
+* [+] Aktuellster Tech-Stack
+* [+] Dokumentation / Community
+
+<!-- slide -->
+<!-- .slide: class="master03" -->
+### Cons
 * [-] Nicht-Standard Applikationen brauchen viel Code-Rückbau
 * [-] Dependency-Überraschungen ("Zalando"...)
-
+* [-] Zum Teil wenig Optionen (z.B. Liquibase vs FlyWay)
 
