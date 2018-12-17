@@ -2,14 +2,14 @@
 <!-- .slide: class="master01" -->
 
 
-<!-- section -->
+<!-- slide -->
 <!-- .slide: class="master02" -->
 ### JHipster
 Adrian Bader<br>
 Sombra González
 
 
-<!-- section -->
+<!-- slide -->
 <!-- .slide: class="master03" -->
 ### Was ist JHipster
 
@@ -19,6 +19,15 @@ Spring Boot und<br>
 Angular oder React zu generieren
 
 ![](../assets/img/jhipster/jhipster.png)
+
+<!-- slide -->
+<!-- .slide: class="master03" -->
+### Wieso JHipster
+
+* MVP-Erstellung für B4U
+* Marina
+* Energy-Kitchen
+
 
 <!-- section -->
 <!-- .slide: class="master04" -->
@@ -65,7 +74,7 @@ Angular oder React zu generieren
 * NoSQL : MongoDB / Couchbase / Cassandra
 
 
-<!-- slide -->
+<!-- section -->
 <!-- .slide: class="master03" -->
 ### Installation
 
@@ -95,6 +104,10 @@ $ yarn global add generator-jhipster
 * JHipster Modules :  Yeoman generator basiert auf einen JHipster sub-generator
 
 <!-- slide -->
+<!-- .slide: class="master03" -->
+### Demo Monolithic application
+
+<!-- section -->
 <!-- .slide: class="master04" -->
 ### Microservices mit JHipster
 
@@ -148,7 +161,13 @@ git@github.com:jhipster/jhipster-console.git
 * Logging aktivieren -> JHipster Console starten
 * Hazelcast Management Console aktivieren 
 
-<!-- slide -->
+<!-- section -->
 <!-- .slide: class="master03" -->
 ### Pros & Cons
+* [+] Best Practises, Guidelines
+* [+] Funktionierende Basis -> TTM
+* [+] Aktuellster Tech-Stack<br><br>
+* [-] Nicht-Standard Applikationen brauchen viel Code-Rückbau
+* [-] Dependency-Überraschungen ("Zalando"...)
+
 
