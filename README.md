@@ -28,6 +28,7 @@
 * [Lightning Network Workshop](en/slides-lightning-workshop.html)
 * [Lightning Network Workshop on Mainnet @Energy Kitchen](en/slides-lightning-workshop-mainnet-ek.html)
 * [JSON Web Tokens](en/slides-json-web-tokens.html)
+* [JHipster](de/slides-jhipster.html)
 
 ## Other
 

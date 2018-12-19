@@ -36,7 +36,7 @@ Angular oder React zu generieren
 * Monolithic application
 * Microservice 
     * Microservice application: Services
-    * Microservice gateway: Edge server
+    * Microservice gateway: Proxy + UI
     * Hipster UAA server: OAuth2 authentication server
 
 <!-- slide -->
@@ -63,15 +63,16 @@ Angular oder React zu generieren
 * Optional Spring Websocket
 * Spring Data JPA + Bean Validation
 * Maven or Gradle
-* Kafka
+* etc. (Kafka, Hazelcast, ELK...)
 
 <!-- slide -->
 <!-- .slide: class="master05" -->
 ### Server-side Technologien - DB
 
+* SQL: H2, MySQL, MariaDB, PostgreSQL, Oracle, MSSQL
+* NoSQL : MongoDB / Couchbase / Cassandra
 * Liquibase
 * Elasticsearch
-* NoSQL : MongoDB / Couchbase / Cassandra
 
 
 <!-- section -->
