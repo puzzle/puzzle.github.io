@@ -41,7 +41,7 @@ Angular oder React zu generieren
 
 <!-- slide -->
 <!-- .slide: class="master03" -->
-### Client-side Technologien
+### Client-Side Technologien
 
 * Angular / React
 * Bootstrap
@@ -55,7 +55,7 @@ Angular oder React zu generieren
 
 <!-- slide -->
 <!-- .slide: class="master05" -->
-### Server-side Technologien
+### Server-Side Technologien
 
 * Spring Boot
 * Spring Security
@@ -67,7 +67,7 @@ Angular oder React zu generieren
 
 <!-- slide -->
 <!-- .slide: class="master05" -->
-### Server-side Technologien - DB
+### Server-Side Technologien - DB
 
 * SQL: H2, MySQL, MariaDB, PostgreSQL, Oracle, MSSQL
 * NoSQL : MongoDB / Couchbase / Cassandra
@@ -110,7 +110,9 @@ $ yarn global add generator-jhipster
 * Generierung (mit Options)
 * Code-Basis
 * Login
-* Metrics & Log-Level im Runtime updaten
+* Metrics & Log-Level
+* Upgrade
+
 
 <!-- section -->
 <!-- .slide: class="master04" -->
