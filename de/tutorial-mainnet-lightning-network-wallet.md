@@ -203,9 +203,10 @@ des Bezahlens!**
 
 
 * Kann ich auch Geld empfangen über das Lightning Network?
-  * Ja, die Funktionalität kann in die Einstellungen mit dem Schalter `Enable receive over Lightning` aktiviert.
-    Wenn die Channels weniger als 2016 Blöcke uncooperative close time haben, fördert die App diese zu schliessen und 
-    entsprechend konfiguriert neu eröffnen.
+  * Ja, die Funktionalität kann in den Einstellungen mit dem Schalter `Enable receive over Lightning` aktiviert werden.
+    Um die Sicherheit der Channel-Guthaben auch bei längerer Offline-Zeit zu gewährleisten, kann es sein, dass Eclair
+    einen auffordert, Channels zu schliessen die eine zu kurze "uncooperative close time" konfiguriert hatten (weniger
+    2016 Blöcke, also ca. 2 Wochen).
 
 
 * Was passiert, wenn ich das Guthaben meines Channels aufgebraucht habe?
