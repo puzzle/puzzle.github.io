@@ -203,10 +203,10 @@ des Bezahlens!**
 
 
 * Kann ich auch Geld empfangen über das Lightning Network?
-  * Im Protokoll ist das natürlich grundsätzlich möglich. Die Eclair-App unterstützt dies aber aus
-    technischen und sicherheitsrelevanten Gründen noch nicht. Dies wird sich aber hoffentlich
-    bald ändern.<br/>
-    [Mehr dazu in den FAQ von Eclair (Englisch)](https://github.com/ACINQ/eclair-wallet/wiki/FAQ). 
+  * Ja, die Funktionalität kann in den Einstellungen mit dem Schalter `Enable receive over Lightning` aktiviert werden.
+    Um die Sicherheit der Channel-Guthaben auch bei längerer Offline-Zeit zu gewährleisten, kann es sein, dass Eclair
+    einen auffordert, Channels zu schliessen die eine zu kurze "uncooperative close time" konfiguriert hatten (weniger
+    2016 Blöcke, also ca. 2 Wochen).
 
 
 * Was passiert, wenn ich das Guthaben meines Channels aufgebraucht habe?

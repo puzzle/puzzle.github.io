@@ -197,9 +197,9 @@ Did the payment work? Yes? **Congratulations and welcome to the future of paymen
     with.
 
 * Can I receive payments through the Lightning Network?
-  * At the protocol level, this is of course possible. But the Eclair app does not support this
-    at the moment for technical and security based reasons. This will hopefully change soon.<br/>
-    [More about this in the Eclair FAQ](https://github.com/ACINQ/eclair-wallet/wiki/FAQ).
+  * Yes, you have to enable the functionality in the settings using the switch `Enable receive over Lightning`. 
+    You might be prompted to close and recreate your channels since the retaliation window for remote uncooperative 
+    close has to be of 2016 blocks.
 
 * What happens, if the balance of my channel is used up?
   * If the balance of a payment channel is used up, it cannot be used for payments again.
