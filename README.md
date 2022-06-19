@@ -17,6 +17,7 @@
 
 ## Techlabs
 
+* [Ansible Kickstart](https://ansible.puzzle.ch)([repo](https://github.com/puzzle/ansible-training)]
 * [Jenkins Pipelines](https://puzzle.github.io/jenkins-techlab)
   ([repo](https://github.com/puzzle/jenkins-techlab/))
 * [APPUiO - OpenShift Techlab (German)](https://github.com/appuio/techlab)
