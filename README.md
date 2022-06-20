@@ -50,3 +50,4 @@
 * [Puzzle BBT](https://github.com/puzzle-bbt/) - Einführung und Dokumentationen zum Berufs-Bildungs-Team
 * [APPUiO](https://github.com/appuio) Your Open Container Platform with a unique community!
 * [Acends](https://github.com/acends) Cloud Native Trainings Switzerland
+* [Decidim](https://decidim.org/) Free Open-Source participatory democracy for cities and organizations
