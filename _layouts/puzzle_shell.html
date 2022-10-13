@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: " en" }}">
+  {%- include head.html -%}
+
+  <body>
+    <style>
+      body {
+        font-family: var(--pzsh-font-family);
+      }
+
+      body,
+      body * {
+        box-sizing: border-box;
+      }
+
+      main {
+        padding: var(--pzsh-page-padding-horizontal-mobile);
+      }
+
+      a {
+        text-decoration: none;
+        color: var(--pzsh-color-brand-2);
+      }
+
+      a:hover,
+      a:active {
+        text-decoration: underline;
+      }
+
+      @media (min-width: 800px) {
+        .main-container {
+          background-color: var(--pzsh-color-gray-1);
+        }
+
+        main {
+          padding: calc(4 * var(--pzsh-spacer))
+            var(--pzsh-page-padding-horizontal-desktop);
+          margin: 0 auto;
+          max-width: 900px;
+          background-color: var(--pzsh-color-white);
+        }
+      }
+    </style>
+
+    <pzsh-container>
+      {%- include header.html -%}
+      <div class="main-container">
+        <main aria-label="Content">{{ content }}</main>
+      </div>
+      {%- include footer.html -%}
+    </pzsh-container>
+
+    <script src="https://cdn.jsdelivr.net/npm/@puzzleitc/puzzle-shell@1.0.0/dist/bundle.js"></script>
+  </body>
+</html>

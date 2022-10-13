@@ -1,3 +1,8 @@
+---
+layout: puzzle_shell
+permalink: index.html
+---
+
 # Awesome Open Source Stuff by Puzzle ITC
 
 ## OSS Solutions
