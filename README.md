@@ -22,12 +22,13 @@ permalink: index.html
 
 ## Techlabs
 
-* [Ansible Kickstart](https://ansible.puzzle.ch)([repo](https://github.com/puzzle/ansible-training))
+* [Ansible Kickstart](https://ansible.puzzle.ch)([repo](https://github.com/puzzle/ansible-training), [slides](https://ansible-slides.puzzle.ch))
 * [Jenkins Pipelines](https://puzzle.github.io/jenkins-techlab)
   ([repo](https://github.com/puzzle/jenkins-techlab/))
 * [APPUiO - OpenShift Techlab (German)](https://github.com/appuio/techlab)
 * [Kubernetes Techlab](https://github.com/puzzle/kubernetes-techlab)
 * [Docker Techlab](https://github.com/puzzle/docker-techlab/)
+* [sys Labs](https://syslabs.puzzle.ch)(cli, git, Troubleshooting, scripting, network)
 
 ## Documentation
 
