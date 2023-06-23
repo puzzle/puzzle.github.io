@@ -22,13 +22,13 @@ permalink: index.html
 
 ## Techlabs
 
-* [Ansible Kickstart](https://ansible.puzzle.ch)([repo](https://github.com/puzzle/ansible-training), [slides](https://ansible-slides.puzzle.ch))
+* [Ansible Kickstart](https://ansible.puzzle.ch) ([repo](https://github.com/puzzle/ansible-training), [slides](https://ansible-slides.puzzle.ch))
 * [Jenkins Pipelines](https://puzzle.github.io/jenkins-techlab)
   ([repo](https://github.com/puzzle/jenkins-techlab/))
 * [APPUiO - OpenShift Techlab (German)](https://github.com/appuio/techlab)
 * [Kubernetes Techlab](https://github.com/puzzle/kubernetes-techlab)
 * [Docker Techlab](https://github.com/puzzle/docker-techlab/)
-* [sys Labs](https://syslabs.puzzle.ch)(cli, git, Troubleshooting, scripting, network)
+* [Sys Labs](https://syslabs.puzzle.ch) (cli, git, Troubleshooting, scripting, network)
 
 ## Documentation
 
@@ -56,5 +56,5 @@ permalink: index.html
 * [Visualisation of the Lightning Network salary payments at Puzzle ITC](/beadnet/)
 * [Puzzle BBT](https://github.com/puzzle-bbt/) - Einführung und Dokumentationen zum Berufs-Bildungs-Team
 * [APPUiO](https://github.com/appuio) Your Open Container Platform with a unique community!
-* [Acends](https://github.com/acends) Cloud Native Trainings Switzerland
+* [Acend](https://github.com/acend) Cloud Native Trainings Switzerland
 * [Decidim](https://decidim.org/) Free Open-Source participatory democracy for cities and organizations
