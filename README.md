@@ -14,6 +14,7 @@ permalink: index.html
 
 ## OSS Project and Tools
 * [Prawn-markup](https://github.com/puzzle/prawn-markup) - Parse simple HTML markup to include in Prawn PDFs
+* [Wagons](https://github.com/puzzle/wagons) - Wagons are extensions to your application train running on Rails 
 * [Nochmal](https://github.com/puzzle/nochmal) - Adds a rake task to reupload ActiveStorage attachments to a new storage 
 * [Bleib](https://github.com/puzzle/bleib) - A ruby gem that helps containerized rails applications to wait for a migrated database. 
 * [Dry-crud](http://github.com/codez/dry_crud) - Generates DRY and specifically extendable CRUD controller, views and helpers for Rails applications
@@ -32,7 +33,7 @@ permalink: index.html
 
 ## Documentation
 
-* [APPUiO Documentation](https://docs.appuio.ch) - APPUiO Public Documentation. [Repo](https://github.com/appuio/docs)
+* [APPUiO Documentation](https://docs.appuio.ch) - APPUiO Public Documentation. [Repo](https://github.com/appuio/appuio-cloud-docs)
 
 ## Tutorials
 
@@ -53,7 +54,6 @@ permalink: index.html
 
 ## Other repos and friends
 
-* [Visualisation of the Lightning Network salary payments at Puzzle ITC](/beadnet/)
 * [Puzzle BBT](https://github.com/puzzle-bbt/) - Einführung und Dokumentationen zum Berufs-Bildungs-Team
 * [APPUiO](https://github.com/appuio) Your Open Container Platform with a unique community!
 * [Acend](https://github.com/acend) Cloud Native Trainings Switzerland
