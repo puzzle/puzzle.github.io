@@ -8,10 +8,10 @@ permalink: index.html
 ## OSS Solutions
 * [Hitobito](https://www.hitobito.com) - A web application to manage complex group hierarchies with members, events and a lot more.  [Repo](https://github.com/hitobito/)
 * [Decidim](https://www.puzzle.ch/de/loesungen/decidim-die-umfassende-open-source-partizipationsplattform) - Decidim is a digital infrastructure for participatory democracy. [Repo](https://github.com/decidim/)
-* [Puzzle OKR](https://github.com/puzzle/okr) - Open source OKR application 
+* [Puzzle OKR](https://github.com/puzzle/okr) - Open source OKR application to define measurable goals and track their outcomes.
 * [Puzzle Time](https://github.com/puzzle/puzzletime) - Open source time tracking and resource planning web application for SMEs 
 * [Puzzle Skills](https://github.com/puzzle/skills) - Open source skill management web application 
-* [Puzzle Cryptpus](https://github.com/puzzle/cryptopus) - Cryptopus is a ruby on rails web application for storing and sharing passwords and other sensitive data. All data is stored encrypted in a database, safe from third party access. 
+* [Puzzle Cryptpus](https://github.com/puzzle/cryptopus) - Cryptopus is a ruby on rails web application for storing and sharing passwords and other sensitive data. All data is stored encrypted in a database, safe from third party access.
 
 ## OSS Project and Tools
 * [Prawn-markup](https://github.com/puzzle/prawn-markup) - Parse simple HTML markup to include in Prawn PDFs
