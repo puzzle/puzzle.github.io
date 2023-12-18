@@ -14,6 +14,7 @@ permalink: index.html
 * [Puzzle Cryptpus](https://github.com/puzzle/cryptopus) - Cryptopus is a ruby on rails web application for storing and sharing passwords and other sensitive data. All data is stored encrypted in a database, safe from third party access.
 
 ## OSS Project and Tools
+* [GitOps Diff tool (Goff)](https://github.com/puzzle/goff) - Preview your changes in your GitOps Repository.
 * [Prawn-markup](https://github.com/puzzle/prawn-markup) - Parse simple HTML markup to include in Prawn PDFs
 * [Wagons](https://github.com/puzzle/wagons) - Wagons are extensions to your application train running on Rails 
 * [Nochmal](https://github.com/puzzle/nochmal) - Adds a rake task to reupload ActiveStorage attachments to a new storage 
