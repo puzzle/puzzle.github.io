@@ -10,8 +10,7 @@ permalink: index.html
 * [Decidim](https://www.puzzle.ch/de/loesungen/decidim-die-umfassende-open-source-partizipationsplattform) - Decidim is a digital infrastructure for participatory democracy. [Repo](https://github.com/decidim/)
 * [Puzzle OKR](https://github.com/puzzle/okr) - Open source OKR application to define measurable goals and track their outcomes.
 * [Puzzle Time](https://github.com/puzzle/puzzletime) - Open source time tracking and resource planning web application for SMEs 
-* [Puzzle Skills](https://github.com/puzzle/skills) - Open source skill management web application 
-* [Puzzle Cryptpus](https://github.com/puzzle/cryptopus) - Cryptopus is a ruby on rails web application for storing and sharing passwords and other sensitive data. All data is stored encrypted in a database, safe from third party access.
+* [Puzzle Skills](https://github.com/puzzle/skills) - Open source skill management web application
 
 ## OSS Project and Tools
 * [Opnsense Collection for Ansible](https://github.com/puzzle/puzzle.opnsense) - An Ansible Collection to configure an opnsense Firewall. [Documentation](https://puzzle.github.io/puzzle.opnsense/collections/puzzle/opnsense/index.html)
@@ -21,8 +20,7 @@ permalink: index.html
 * [Nochmal](https://github.com/puzzle/nochmal) - Adds a rake task to reupload ActiveStorage attachments to a new storage 
 * [Bleib](https://github.com/puzzle/bleib) - A ruby gem that helps containerized rails applications to wait for a migrated database. 
 * [Dry-crud](http://github.com/codez/dry_crud) - Generates DRY and specifically extendable CRUD controller, views and helpers for Rails applications
-* [Marina](https://github.com/puzzle/marina-gui) - Web GUI for the marina application. Public archive.
-* [Lightning powered beer tap](https://github.com/puzzle/lightning-beer-tap) - This is how we implemented our Lightning powered beer tap 
+
 
 ## Techlabs and documentations
 
@@ -41,17 +39,20 @@ permalink: index.html
 
 ## Public archive and older stuff
 
-* [Lightning Network Workshop](en/slides-lightning-workshop.html)
-* [Lightning Network Workshop on Mainnet @Energy Kitchen](en/slides-lightning-workshop-mainnet-ek.html)
+* [Puzzle Cryptopus](https://github.com/puzzle/cryptopus) - Cryptopus was a Ruby on Rails web application for storing and sharing passwords and other sensitive data. All data was stored encrypted in a database, safe from third party access.
 * [JSON Web Tokens](en/slides-json-web-tokens.html)
-* [JHipster](https://puzzle.github.io/de/slides-jhipster.html) - Microservices with JHipster [Repo](de/slides-jhipster.html)
-* [Setup a wallet for the "Lightning Network" on Mainnet](en/tutorial-mainnet-lightning-network-wallet.md) Tutorial
 * [Kubernetes Techlab](https://github.com/puzzle/kubernetes-techlab) Public archive
 * [Docker Techlab](https://github.com/puzzle/docker-techlab/) Public archive
+* [JHipster](https://puzzle.github.io/de/slides-jhipster.html) - Microservices with JHipster [Repo](de/slides-jhipster.html)
+* [Setup a wallet for the "Lightning Network" on Mainnet](en/tutorial-mainnet-lightning-network-wallet.md) Tutorial
+* [Lightning Network Workshop](en/slides-lightning-workshop.html)
+* [Lightning Network Workshop on Mainnet @Energy Kitchen](en/slides-lightning-workshop-mainnet-ek.html)
+* [Marina](https://github.com/puzzle/marina-gui) - Web GUI for the marina application
+* [Lightning powered beer tap](https://github.com/puzzle/lightning-beer-tap) - This is how we implemented our Lightning powered beer tap 
 
 ## Other repos and friends
 
-* [Puzzle BBT](https://github.com/puzzle-bbt/) - Einführung und Dokumentationen zum Berufs-Bildungs-Team
+* [Puzzle BBT](https://github.com/puzzle-bbt/) - Einführung und Dokumentationen zum Berufsbildungsteam
 * [APPUiO](https://github.com/appuio) Your Open Container Platform with a unique community!
 * [Acend](https://github.com/acend) Cloud Native Trainings Switzerland
 * [Decidim](https://decidim.org/) Free Open-Source participatory democracy for cities and organizations
